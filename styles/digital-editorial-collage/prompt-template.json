@@ -1,0 +1,138 @@
+{
+  "style_name": "Digital surrealist architectural vintage collage",
+  "style_summary": "Surrealist mixed-media digital collage on a textured warm paper ground. Visual vocabulary combines classical plaster bust fragments, brutalist concrete architecture, botanical elements (olive trees), and muted atmospheric skies. Graphic language relies on flat geometric shapes (terracotta suns, ochre swatches) contrasted with sharp photographic cutouts and fine technical line-work (grids, dotted lines). The aesthetic is intellectual, contemplative, and editorial, suitable for conceptual fine art or premium brand imagery.",
+
+  "environment_variables": {
+    "FOCAL_SUBJECT": "The central surreal combination mixing human/classical elements with architecture or nature. Must describe the surreal juxtaposition. e.g., 'A classical plaster bust sliced horizontally to reveal a growing olive tree' or 'A massive concrete brutalist archway containing an endless staircase'.",
+    "SUPPORTING_ELEMENTS": "Secondary photographic cutouts that provide environmental context or balance. e.g., 'fluffy vintage clouds and a floating textured concrete sphere' or 'distant misty mountains fading into the background'."
+  },
+
+  "example_cases": [
+    {
+      "case_name": "Concrete Maze",
+      "environment_variables": {
+        "FOCAL_SUBJECT": "A colossal classical marble sculpted hand emerging from a rough brutalist concrete pedestal, holding a miniature intricate labyrinth in its palm.",
+        "SUPPORTING_ELEMENTS": "A floating terracotta-colored geometric sphere, faint vintage astronomical diagrams in the background, and halftone-printed clouds cutting across the marble wrist"
+      }
+    },
+    {
+      "case_name": "Desert Agave Plant",
+      "environment_variables": {
+        "FOCAL_SUBJECT": "A massive, perfectly round terracotta sun partially obscured by a thick brutalist concrete archway, with an upside-down antique plaster column hanging from the top of the arch.",
+        "SUPPORTING_ELEMENTS": "A flock of vintage illustrated swallows flying through the negative space, floating textured concrete cubes, and subtle charcoal dotted grid lines."
+      }
+    },
+    {
+      "case_name": "Astronomical imagery",
+      "environment_variables": {
+        "FOCAL_SUBJECT": "A cross-section of a brutalist concrete spiral staircase that organically morphs into the leaves of a giant, vintage-illustrated desert agave plant.",
+        "SUPPORTING_ELEMENTS": "Halftone-printed lunar surface cutouts, floating terracotta-colored geometric triangles, and a torn paper edge revealing a charcoal-grey void."
+      }
+    }
+  ],
+
+  "composition": {
+    "layout_type": "Centralized negative-space collage",
+    "zones": {
+      "typography_zone": "Outer 20% margins, maintaining extreme visual quietness for potential editorial text overlay",
+      "focal_zone": "Center 60% of the canvas, highly layered and dense, functioning as an island floating in the negative space",
+      "negative_space": "Aggressive use of negative space, occupying at least 40-50% of the canvas to create a museum-like contemplative atmosphere"
+    },
+    "depth_logic": "Depth is strictly literal (stacking flat cutouts over each other). Prohibited: unified realistic 3D perspective, global illumination, or cast drop shadows between layers.",
+    "scale_contrast": "Extreme surrealist scale contrast (e.g., giant terracotta suns, massive statues, miniature humans).",
+    "edge_treatment": "Juxtaposition of razor-sharp photographic cutouts, rough torn paper edges, and precise vector strokes.",
+    "permissions": [
+      "gravity defiance for heavy objects",
+      "anatomical cropping and slicing of classical statues",
+      "extreme and unrealistic scale discrepancies",
+      "blending physical cutouts with flat digital geometry"
+    ]
+  },
+
+  "typography": {
+    "presence": "editorial",
+    "letterform_character": "Restrained, intellectual, geometric, modernist",
+    "hierarchy": [
+      {
+        "role": "headline",
+        "style": "Swiss Grotesk sans-serif, bold, medium scale",
+        "treatment": "sharp, flat, untextured",
+        "position": "floating in the negative space margins",
+        "color_rule": "charcoal grey"
+      }
+    ],
+    "readability_rule": "Text must never cross the boundaries of heavily textured focal elements; must exist purely in the negative space.",
+    "text_constraints": [
+      "no 3D text extrusions",
+      "no distressed or grunge font treatments",
+      "no drop shadows or glows on typography"
+    ]
+  },
+
+  "color_palette": {
+    "handmade_paper_beige": "#EFEAE0",
+    "terracotta_clay": "#DE6B53",
+    "ochre_mustard": "#C8953C",
+    "concrete_grey": "#9A9A9A",
+    "antique_plaster_white": "#D8D8D8",
+    "faded_olive_green": "#6B7045"
+  },
+
+  "color_constraints": {
+    "dominant": "handmade_paper_beige, must dominate the background and negative space (min 40% area).",
+    "accent_roles": "terracotta_clay and ochre_mustard are strictly reserved for flat geometric graphic elements or dry paint swatches (1-2 occurrences max).",
+    "special_rules": "All colors must have a slightly desaturated, vintage print, matte quality.",
+    "forbidden": [
+      "neon or fluorescent colors (breaks the vintage print aesthetic)",
+      "pure black #000000 (creates too harsh of a contrast, use charcoal)",
+      "pure white #FFFFFF (lacks paper texture)",
+      "gradient blends (breaks the flat collage aesthetic)"
+    ]
+  },
+
+  "visual_direction": {
+    "lighting": "Inconsistent, multi-source lighting. Each photographic cutout retains its original studio lighting, deliberately failing to match the surrounding elements.",
+    "mood": "Intellectual, philosophical, and quiet. Is NOT chaotic, loud, cyberpunk, or commercially glossy.",
+    "material_textures": "Porous brutalist concrete, smooth antique plaster, fibrous torn handmade paper, dry-brush acrylic, and half-tone printed clouds.",
+    "print_finish": "printed-and-scanned collage mixed media",
+    "surface_quality": "Completely matte with visible paper grain across the entire canvas."
+  },
+
+  "graphic_elements": {
+    "technical_linework": {
+      "physical": "0.5pt charcoal/faded grey lines (dotted lines, grids, thin concentric circles, intersecting arcs)",
+      "placement": "Floating in the background negative space, subtly intersecting main focal elements",
+      "allowed": ["extending beyond the framing of other elements", "overlapping clouds and paper textures"],
+      "forbidden": ["thick strokes", "glowing/neon effects", "forming closed 3D wireframes"],
+      "count": "3-5 clusters"
+    },
+    "geometric_color_blocks": {
+      "physical": "Flat, unshaded shapes (circles, rectangles) with distressed vintage paper textures applied",
+      "placement": "Layered deeply behind the architectural elements or overlapping at the bottom edges",
+      "allowed": ["acting as a framing halo (like the terracotta sun)"],
+      "forbidden": ["gradients", "drop shadows", "bevels"],
+      "count": "1-3"
+    },
+    "torn_paper_fragments": {
+      "physical": "Rough, fibrous, irregular torn edges revealing different colors or textures underneath",
+      "placement": "Anchoring corners or acting as a window/portal (e.g., torn archway)",
+      "allowed": ["creating trompe l'oeil depth"],
+      "forbidden": ["smooth digital mask transitions", "soft feathered edges"],
+      "count": "1-2"
+    }
+  },
+
+  "constraints": {
+    "do": [
+      "Maintain a clear distinction between flat vector geometry and 3D photographic cutouts",
+      "Apply a global noise/paper texture over the entire final image to unify the collage"
+    ],
+    "avoid": [
+      "unified 3D global illumination (AI tends to render collages too realistically)",
+      "cyberpunk or sci-fi aesthetics (AI associates 'brutalist' with sci-fi)",
+      "photorealism of living human faces (disrupts the classical/surreal mood)",
+      "glossy, reflective, or wet surfaces",
+      "digital airbrushing or soft lighting transitions"
+    ]
+  }
+}
