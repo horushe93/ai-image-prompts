@@ -1,0 +1,96 @@
+{
+  "style_name": "Museum-grade digital pop-surrealist collage",
+  "style_summary": "A sophisticated, museum-grade conceptual mixed-media collage that creates a visceral collision between classical fine art and retro digital decay. The visual vocabulary merges shattered plaster busts with highly complex, tangible digital artifacts (circuitry, wires, Windows 95 UI) bursting outward, set against a heavy tactile handmade paper ground. The typography is deeply integrated, utilizing elegant Swiss editorial layouts that interact with fine technical grids. The aesthetic is highly tactile, intellectually provocative, and visually arresting.",
+
+  "environment_variables": {
+    "FOCAL_SUBJECT": "A massive, brutalist concrete stepped ziggurat (pyramid). Instead of a peak, it balances a giant, tilted white paper coffee cup spilling a flat, dry-brush swatch of brown coffee.",
+    "SUPPORTING_ELEMENTS": "Floating torn fragments of Excel spreadsheet grids, a pixelated Windows hourglass loading cursor, and a giant flat terracotta sun acting as a clock stuck at 4:59.",
+    "OVERLAY_QUOTE": "BUILDING PYRAMIDS IN EXCEL"
+  },
+
+  "composition": {
+    "layout_type": "Swiss grid-based negative-space conceptual collage",
+    "zones": {
+      "typography_zone": "Integrated into the top or left negative space, perfectly aligned with the invisible background grid, functioning as a delicate graphic element rather than a loud billboard",
+      "focal_zone": "Center-weighted, emphasizing the physical depth of the torn edges and the tangled complexity of the internal elements",
+      "negative_space": "Occupying at least 40% of the canvas, heavily textured to provide breathing room for the intense central collision"
+    },
+    "depth_logic": "Literal flat stacking depth for background graphics, but intense trompe-l'œil (optical illusion) 3D depth where classical subjects are torn open to reveal complex internal structures.",
+    "scale_contrast": "Extreme surrealist scale contrast, making UI elements massive enough to crush physical statues.",
+    "edge_treatment": "Violent juxtaposition: the jagged pixels of retro UI vs. the rough, fibrous tearing of thick paper vs. the ultra-smooth surface of marble.",
+    "permissions": [
+      "anatomical cropping and violent shattering of classical statues",
+      "intertwining typography with background technical linework",
+      "blending photorealistic circuitry with flat 8-bit UI elements"
+    ]
+  },
+
+  "typography": {
+    "presence": "hero_quote_editorial",
+    "font_pairing_strategy": "Extreme contrast. Mix ultra-thin weights with ultra-bold weights, or pair elegant classical Serif fonts (like Garamond) with strict Grotesk Sans-serifs. NO generic all-bold meme fonts.",
+    "color_logic": "Strictly NO pure black (#000000). Base text must use faded charcoal grey (#333333). The core keyword (e.g., 'BROKEN') must be highlighted in an accent color extracted from the image (like terracotta red #DE6B53 or UI system blue).",
+    "treatment": "The text must NOT look digitally pasted. It must have a physical printed quality—slight halftone bleeding, Letraset rub-on texture, or faded dry-ink effect, blending seamlessly into the textured paper background.",
+    "layout_rules": [
+      "Align text flush-left alongside the subtle background technical grids, rather than a lazy center-alignment.",
+      "Adjust line-height (leading) tightly to create a cohesive typographic block."
+    ]
+  },
+
+  "color_palette": {
+    "heavy_textured_beige": "#EFEAE0",
+    "charcoal_ink_grey": "#333333",
+    "antique_plaster_white": "#D8D8D8",
+    "terracotta_clay": "#DE6B53",
+    "muted_circuit_gold": "#B89947",
+    "cyber_alert_system_blue": "#0000FF"
+  },
+
+  "color_constraints": {
+    "dominant": "heavy_textured_beige and charcoal_ink_grey (min 60% area).",
+    "accent_roles": "cyber_alert_system_blue is restricted to exactly 1% area (only on digital UI error bars). terracotta_clay and muted_circuit_gold are used to bridge the text and the classical elements.",
+    "special_rules": "All colors EXCEPT the tiny digital UI elements must have a desaturated, vintage matte print quality.",
+    "forbidden": [
+      "pure black #000000 (creates cheap digital contrast, use charcoal instead)",
+      "neon gradients",
+      "uncoordinated random text colors"
+    ]
+  },
+
+  "visual_direction": {
+    "lighting": "Inconsistent multi-source lighting to emphasize the physical collage cuts, with deep shadows ONLY inside the torn cavities to show complexity.",
+    "mood": "Intellectually provocative, elegantly melancholic, high-end gallery aesthetic.",
+    "material_textures": "Heavy tactile handmade paper grain, smooth antique plaster, visceral tangles of metallic wires/circuitry, and flat untextured pixel-art.",
+    "print_finish": "high-end gallery mixed-media scan",
+    "surface_quality": "Completely matte overall finish with profound paper texture."
+  },
+
+  "graphic_elements": {
+    "retro_digital_UI": {
+      "physical": "Pixelated cursors, flat Windows 95 error dialog boxes",
+      "placement": "Acting as a physical weapon or structural block that crashes into the focal subject",
+      "allowed": ["physically intersecting and crushing classical elements"],
+      "forbidden": ["floating pointlessly like cheap stickers", "glassmorphism"],
+      "count": "1-2"
+    },
+    "technical_linework": {
+      "physical": "0.5pt charcoal lines (grids, concentric circles, intersecting arcs)",
+      "placement": "Subtly mapping the background negative space",
+      "allowed": ["anchoring the typography", "extending behind the focal subject"],
+      "forbidden": ["thick clumsy strokes"],
+      "count": "2-3 clusters"
+    }
+  },
+
+  "constraints": {
+    "do": [
+      "Treat typography as a delicate design element fully integrated into the visual grid",
+      "Ensure the physical intersection between classical art and digital elements feels violent, heavy, or deeply embedded"
+    ],
+    "avoid": [
+      "flat, sticker-like overlays that lack physical tension",
+      "pure black (#000000) typography",
+      "smooth digital backgrounds devoid of paper texture",
+      "unified 3D global illumination across the whole canvas"
+    ]
+  }
+}

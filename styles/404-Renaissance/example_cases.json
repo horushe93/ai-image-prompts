@@ -1,0 +1,31 @@
+{
+  "example_cases_9_16": [
+    {
+      "case_name": "Tech",
+      "environment_variables": {
+        "FOCAL_SUBJECT": "A classical marble bust of a Greek philosopher. His eyes are completely covered by a chunky, retro 1980s beige VR headset with thick trailing cables.",
+        "SUPPORTING_ELEMENTS": "A pixelated Windows 95 'Fatal Error' dialog box floating over his chest, halftone-printed binary code melting like wax from the cables, and fine charcoal dotted grids in the background.",
+        "OVERLAY_QUOTE": "AI IS THINKING SO I DON'T HAVE TO"
+      }
+    },
+    {
+      "case_name": "Work",
+      "environment_variables": {
+        "FOCAL_SUBJECT": "A massive, brutalist concrete stepped ziggurat (pyramid). Instead of a peak, it balances a giant, tilted white paper coffee cup spilling a flat, dry-brush swatch of brown coffee.",
+        "SUPPORTING_ELEMENTS": "Floating torn fragments of Excel spreadsheet grids, a pixelated Windows hourglass loading cursor, and a giant flat terracotta sun acting as a clock stuck at 4:59.",
+        "OVERLAY_QUOTE": "BUILDING PYRAMIDS IN EXCEL"
+      }
+    },
+    {
+      "case_name": "Lonliness",
+      "environment_variables": {
+        "FOCAL_SUBJECT": "The beautiful classical plaster profile of a Renaissance sculpture face, aggressively torn down the middle. Inside the paper-like tear, densely packed, flat vintage computer motherboard circuitry is revealed instead of flesh.",
+        "SUPPORTING_ELEMENTS": "A sharp, high-contrast pixelated 'Disconnected' popup icon covering her eye area, vintage anatomical bird wings trying to fly away, and a single unplugged audio cable hanging down.",
+        "OVERLAY_QUOTE": "WE ARE ALL JUST BROKEN LINKS"
+      }
+    }
+  ],
+
+  "example_cases_16_9": [
+  ]
+}

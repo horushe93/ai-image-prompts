@@ -7,30 +7,6 @@
     "SUPPORTING_ELEMENTS": "Secondary photographic cutouts that provide environmental context or balance. e.g., 'fluffy vintage clouds and a floating textured concrete sphere' or 'distant misty mountains fading into the background'."
   },
 
-  "example_cases": [
-    {
-      "case_name": "Concrete Maze",
-      "environment_variables": {
-        "FOCAL_SUBJECT": "A colossal classical marble sculpted hand emerging from a rough brutalist concrete pedestal, holding a miniature intricate labyrinth in its palm.",
-        "SUPPORTING_ELEMENTS": "A floating terracotta-colored geometric sphere, faint vintage astronomical diagrams in the background, and halftone-printed clouds cutting across the marble wrist"
-      }
-    },
-    {
-      "case_name": "Desert Agave Plant",
-      "environment_variables": {
-        "FOCAL_SUBJECT": "A massive, perfectly round terracotta sun partially obscured by a thick brutalist concrete archway, with an upside-down antique plaster column hanging from the top of the arch.",
-        "SUPPORTING_ELEMENTS": "A flock of vintage illustrated swallows flying through the negative space, floating textured concrete cubes, and subtle charcoal dotted grid lines."
-      }
-    },
-    {
-      "case_name": "Astronomical imagery",
-      "environment_variables": {
-        "FOCAL_SUBJECT": "A cross-section of a brutalist concrete spiral staircase that organically morphs into the leaves of a giant, vintage-illustrated desert agave plant.",
-        "SUPPORTING_ELEMENTS": "Halftone-printed lunar surface cutouts, floating terracotta-colored geometric triangles, and a torn paper edge revealing a charcoal-grey void."
-      }
-    }
-  ],
-
   "composition": {
     "layout_type": "Centralized negative-space collage",
     "zones": {
