@@ -27,5 +27,29 @@
   ],
 
   "example_cases_16_9": [
+    {
+      "case_name": "The Infinite Scroll (无限下拉的虚无)",
+      "environment_variables": {
+        "FOCAL_SUBJECT": "A colossal, horizontally reclining classical marble Titan (like a fallen ancient god). His entire body is tightly bound and choked by giant, tangible retro Windows UI scrollbars and thick, tangled grey server cables stretching infinitely across the wide canvas.",
+        "SUPPORTING_ELEMENTS": "Flocks of pixelated halftone-printed hourglass cursors hovering like flies, a massive flat terracotta sun sinking behind a distant brutalist concrete wall, and rough torn paper edges at the bottom revealing digital static noise.",
+        "OVERLAY_QUOTE": "SCROLLING INTO THE VOID"
+      }
+    },
+    {
+      "case_name": "The Cloud Pantheon (云端万神殿的遗迹)",
+      "environment_variables": {
+        "FOCAL_SUBJECT": "A vast, horizontal brutalist concrete colonnade resembling an ancient Greek temple spreading across the frame. The thick concrete columns are violently shattered open to reveal they are hollow, exposing highly complex, tangled vintage server racks and circuit boards acting as the building's skeleton.",
+        "SUPPORTING_ELEMENTS": "A giant 8-bit 'Save Icon' (floppy disk) crashing into the marble floor like a meteor, causing a physical shockwave of torn paper textures. Vintage anatomical diagrams of human brains fading into the wide charcoal-grey negative space.",
+        "OVERLAY_QUOTE": "MEMORIES SAVED, SOULS DELETED"
+      }
+    },
+    {
+      "case_name": "The Content Factory (流水线上的大卫)",
+      "environment_variables": {
+        "FOCAL_SUBJECT": "A panoramic brutalist concrete conveyor belt stretching from left to right. It carries an endless row of perfectly sculpted, identical marble heads of Michelangelo's David. A giant, pixelated white cursor is physically stamping and cracking open the skull of the center David.",
+        "SUPPORTING_ELEMENTS": "Fine 0.5pt charcoal technical blueprints mapping the assembly line in the background negative space. A sharp, geometric cyber-alert red 'Error' block jammed violently into the concrete gears, with dry-brush terracotta paint bleeding from the machinery.",
+        "OVERLAY_QUOTE": "MASS PRODUCED AUTHENTICITY"
+      }
+    }
   ]
 }

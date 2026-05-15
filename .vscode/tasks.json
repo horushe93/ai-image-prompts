@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "🎒📋 [warp cmd]",
+      "type": "shell",
+      "command": "echo \"docker exec -it --user 'node' -w '${workspaceFolder}' $(hostname) /bin/bash\" && echo '\n✅ Done'",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new",
+        "focus": true,
+        "clear": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}
