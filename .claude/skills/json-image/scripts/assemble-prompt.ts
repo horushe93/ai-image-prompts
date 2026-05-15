@@ -23,6 +23,8 @@ function parseArgs(): {
   ratioKey: string;
   outputDir: string;
   aspectRatio: string;
+  channel: string;
+  model: string;
 } {
   const args = process.argv.slice(2);
   const parsed: Record<string, string> = {};
@@ -49,6 +51,8 @@ function parseArgs(): {
     ratioKey: parsed["ratio-key"],
     outputDir: parsed["output-dir"],
     aspectRatio: parsed["aspect-ratio"],
+    channel: parsed["channel"] || "replicate",
+    model: parsed["model"] || "openai/gpt-image-2",
   };
 }
 
@@ -106,10 +110,17 @@ function main(): void {
     };
 
     const indexStr = String(index + 1).padStart(2, "0");
+    const channelLabel = config.channel === "gemini" ? "Gemini" : "Replicate";
+    const modelLabel = config.model
+      .split("/")
+      .pop()!
+      .split("-")
+      .map((w) => w[0].toUpperCase() + w.slice(1))
+      .join(" ");
     const mdContent = [
       "| 渠道 | 模型 | 比例 |",
       "|------|------|------|",
-      `| Replicate | GPT Image 2 | ${config.aspectRatio} |`,
+      `| ${channelLabel} | ${modelLabel} | ${config.aspectRatio} |`,
       "",
       "```json",
       JSON.stringify(merged, null, 2),
