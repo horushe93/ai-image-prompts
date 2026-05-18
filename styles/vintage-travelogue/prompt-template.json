@@ -1,0 +1,114 @@
+{
+  "style_name": "Vintage travelogue maximalist map-collage",
+  "style_summary": "Maximalist retro travelogue poster on aged, textured parchment. It visually archives a specific destination by densely clustering architectural photographic cutouts, vintage transit UI (tickets, subway signs), and cultural ephemera. The dense overlapping is managed using thick, rough white torn-paper edges. The composition is anchored by flat geometric vector shapes that subtly echo the region's flag colors. Finished with navigational crosshairs, GPS coordinates, postal stamps, and a mix of bold bilingual typography and elegant handwritten script.",
+  
+  "environment_variables": {
+    "LOCATION_NAME": "Primary destination (e.g., 'HONG KONG', 'SOUTH KOREA')",
+    "KEY_LANDMARKS": "3-5 recognizable architectural cutouts (e.g., 'Bank of China Tower, Peak Tram, Tian Tan Buddha')",
+    "TRANSIT_AND_CULTURE": "Local vehicles, specific subway/street signs, and cultural objects (e.g., 'Star Ferry, green street neon sign, vintage red taxi')",
+    "GEOGRAPHIC_DATA": "GPS coordinates or dates to be typed out (e.g., '22.3193° N, 114.1694° E')"
+  },
+  
+  "composition": {
+    "layout_type": "Dense centralized island cluster with archival marginalia",
+    "zones": {
+      "typography_zone": "Corner anchoring for main titles, while coordinates and stamps float in the negative space margins",
+      "focal_zone": "Center 75%, highly dense interlocking puzzle of photos",
+      "negative_space": "Outer 25% aged paper ground, kept clean to showcase postal marks and thin grid lines"
+    },
+    "depth_logic": "Literal 2.5D flat stacking. Photos MUST be separated by prominent white torn-paper borders to prevent them from melting into each other.",
+    "scale_contrast": "Deliberate geographic distortion (e.g., a subway ticket can be as large as a skyscraper).",
+    "edge_treatment": "A strict mix of razor-sharp building cutouts, thick white fibrous torn-paper edges for landscapes, and flat vector edges for geometry.",
+    "permissions": [
+      "overlapping disparate landscapes seamlessly",
+      "blending photographic elements with flat 2D graphic stamps"
+    ]
+  },
+  
+  "typography": {
+    "presence": "archival_poster",
+    "letterform_character": "Bilingual, structured transit bold, mixed with personal travelogue script",
+    "hierarchy": [
+      {
+        "role": "main_title",
+        "style": "Bold, clean sans-serif (English) + Traditional local calligraphy/type",
+        "position": "Top-left or top-right quadrant"
+      },
+      {
+        "role": "handwritten_annotation",
+        "style": "Elegant cursive/script font (e.g., labeling a landmark)",
+        "position": "Overlapping the aged paper and a photo edge"
+      },
+      {
+        "role": "transit_data",
+        "style": "Monospace or typewriter font (for GPS coordinates and dates)",
+        "position": "Corners or edges of the collage cluster"
+      }
+    ],
+    "text_constraints": [
+      "Must look like ink printed on paper, no digital drop shadows",
+      "No 3D extruded typography"
+    ]
+  },
+  
+  "color_palette": {
+    "aged_parchment_base": "#EFE9DA",
+    "charcoal_ink_text": "#2B2B2B",
+    "flag_inspired_accent_1": "Primary geometric color (e.g., #C83D32 Postal Red)",
+    "flag_inspired_accent_2": "Secondary geometric color (e.g., #1D3A5F Deep Navy or #DEAB32 Mustard)"
+  },
+  
+  "color_constraints": {
+    "dominant": "aged_parchment_base must frame the entire composition.",
+    "accent_roles": "flag_inspired_accents are strictly reserved for the large, flat geometric background shapes and small dot accents.",
+    "special_rules": "All photographic elements must have a slightly faded, warm, vintage halftone photo aesthetic.",
+    "forbidden": [
+      "neon gradients",
+      "pure digital white (use off-white for torn edges)",
+      "high-contrast modern digital photography"
+    ]
+  },
+  
+  "visual_direction": {
+    "lighting": "Inconsistent lighting across different photo cutouts, reinforcing the 'cut-and-paste' physical collage feel.",
+    "mood": "Nostalgic, exploratory, cultural, archiving memories.",
+    "material_textures": "Porous aged paper, fibrous torn edges, faded halftone printing, dry red stamp ink.",
+    "print_finish": "Vintage travel zine / scrapbook",
+    "surface_quality": "Completely matte."
+  },
+  
+  "graphic_elements": {
+    "white_torn_borders": {
+      "physical": "Thick, irregular white paper borders",
+      "placement": "Surrounding specific landscape/scenic cutouts to isolate them from adjacent photos",
+      "count": "3-5"
+    },
+    "archival_markings": {
+      "physical": "Red postal cancellation stamps, circular immigration chops, vintage ticket stubs",
+      "placement": "Scattered, overlapping the border between the negative space and the photos",
+      "count": "4-6"
+    },
+    "flag_geometry": {
+      "physical": "Large, perfectly flat geometric shapes (circles, overlapping spheres, tall rectangles) in solid accent colors",
+      "placement": "Layered deepest in the cluster, acting as a halo/backdrop for the buildings",
+      "count": "2-3"
+    },
+    "navigational_linework": {
+      "physical": "Extremely thin 0.5pt black lines, crosshairs (+), and subtle coordinate grids",
+      "placement": "Floating in the empty parchment background",
+      "count": "2-4 clusters"
+    }
+  },
+  
+  "constraints": {
+    "do": [
+      "Enforce thick white torn-paper edges on landscape photos—this is crucial for legibility",
+      "Embed realistic-looking transit UI (subway signs, boarding passes)"
+    ],
+    "avoid": [
+      "seamless blending of photos without borders",
+      "unified 3D global illumination",
+      "modern, glossy, or hyper-realistic textures"
+    ]
+  }
+}

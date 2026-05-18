@@ -1,0 +1,126 @@
+{
+  "example_cases_3_2": [
+    {
+      "case_name": "Paris: The Romantic Archive (巴黎：浪漫档案)",
+      "environment_variables": {
+        "LOCATION_NAME": "PARIS, FRANCE",
+        "KEY_LANDMARKS": "Eiffel Tower, Arc de Triomphe, a stone gargoyle from Notre-Dame, the Louvre Pyramid",
+        "TRANSIT_AND_CULTURE": "Vintage green Art Nouveau Metro sign, retro bicycle with a baguette, Seine riverboat (Bateau Mouche), faded French train ticket stub",
+        "GEOGRAPHIC_DATA": "48.8566° N, 2.3522° E"
+      },
+      "compiled_prompt": "Vintage travelogue maximalist map-collage, horizontal panoramic layout on aged textured parchment. A dense interlocking puzzle of photographic cutouts separated by thick white fibrous torn-paper edges. Featuring the Eiffel Tower, Arc de Triomphe, a stone gargoyle from Notre-Dame, and the Louvre Pyramid. Surrounding cultural ephemera: a vintage green Art Nouveau Metro sign, retro bicycle, Seine riverboat, and a faded French train ticket stub. Background features large flat geometric circles in deep navy blue and crimson red acting as halos. Accented with '48.8566° N, 2.3522° E' in typewriter font, red postal cancellation stamps, and thin 0.5pt black navigational crosshairs. Bold clean sans-serif title 'PARIS' and elegant handwritten script 'La Ville Lumière'. Inconsistent cutout lighting, literal flat stacking depth, faded halftone photo aesthetic, completely matte print finish. --no unified 3D lighting, seamless blending, modern digital photography, neon gradients --ar 3:2 --v 6.0 --style raw"
+    },
+    {
+      "case_name": "Kyoto: The Traditional Tapestry (京都：传统画卷)",
+      "environment_variables": {
+        "LOCATION_NAME": "KYOTO, JAPAN (京都)",
+        "KEY_LANDMARKS": "Fushimi Inari Torii gates, Kinkaku-ji (Golden Pavilion), Yasaka Pagoda, Arashiyama bamboo forest",
+        "TRANSIT_AND_CULTURE": "Vintage Randen streetcar, traditional geisha paper umbrella, Shinkansen ticket stub, antique matcha tea bowl",
+        "GEOGRAPHIC_DATA": "35.0116° N, 135.7681° E"
+      },
+      "compiled_prompt": "Vintage travelogue maximalist map-collage, horizontal panoramic layout on aged textured parchment. A dense interlocking puzzle of photographic cutouts separated by thick white fibrous torn-paper edges. Featuring Fushimi Inari Torii gates, Kinkaku-ji Golden Pavilion, Yasaka Pagoda, and Arashiyama bamboo forest. Surrounding cultural ephemera: a vintage Randen streetcar, traditional geisha paper umbrella, Shinkansen ticket stub, and an antique matcha tea bowl. Background features a massive flat geometric crimson red sun acting as a halo. Accented with '35.0116° N, 135.7681° E' in typewriter font, Asian red ink chops, circular immigration stamps, and thin 0.5pt black navigational crosshairs. Bold bilingual title 'KYOTO 京都' and elegant handwritten annotations. Inconsistent cutout lighting, literal flat stacking depth, faded halftone photo aesthetic, completely matte print finish. --no unified 3D lighting, seamless blending, modern digital photography, neon gradients --ar 3:2 --v 6.0 --style raw"
+    },
+    {
+      "case_name": "New York: The Urban Grid (纽约：都市网格)",
+      "environment_variables": {
+        "LOCATION_NAME": "NEW YORK CITY",
+        "KEY_LANDMARKS": "Empire State Building, Statue of Liberty head, Brooklyn Bridge suspension cables, Chrysler Building spire",
+        "TRANSIT_AND_CULTURE": "Classic yellow checker cab, vintage MTA subway token, worn MetroCard, green street sign for Broadway",
+        "GEOGRAPHIC_DATA": "40.7128° N, 74.0060° W"
+      },
+      "compiled_prompt": "Vintage travelogue maximalist map-collage, horizontal panoramic layout on aged textured parchment. A dense interlocking puzzle of photographic cutouts separated by thick white fibrous torn-paper edges. Featuring the Empire State Building, Statue of Liberty head, Brooklyn Bridge cables, and Chrysler Building spire. Surrounding cultural ephemera: a classic yellow checker cab, vintage MTA subway token, worn MetroCard, and a green Broadway street sign. Background features large flat geometric overlapping rectangles in royal blue and postal red acting as halos. Accented with '40.7128° N, 74.0060° W' in typewriter font, black circular postal cancellation marks, and thin 0.5pt black navigational crosshairs. Bold structured transit title 'NEW YORK CITY' and messy handwritten script 'The Big Apple'. Inconsistent cutout lighting, literal flat stacking depth, faded halftone photo aesthetic, completely matte print finish. --no unified 3D lighting, seamless blending, modern digital photography, neon gradients --ar 3:2 --v 6.0 --style raw"
+    },
+    {
+      "case_name": "Rome: The Eternal Scrapbook (罗马：永恒手账)",
+      "environment_variables": {
+        "LOCATION_NAME": "ROME, ITALY (ROMA)",
+        "KEY_LANDMARKS": "The Colosseum, Trevi Fountain marble sculptures, Pantheon dome, Roman Forum ancient ruins",
+        "TRANSIT_AND_CULTURE": "Vintage mint-green Vespa scooter, classic yellow Fiat 500, old Italian postage stamps, handwritten gelato menu",
+        "GEOGRAPHIC_DATA": "41.9028° N, 12.4964° E"
+      },
+      "compiled_prompt": "Vintage travelogue maximalist map-collage, horizontal panoramic layout on aged textured parchment. A dense interlocking puzzle of photographic cutouts separated by thick white fibrous torn-paper edges. Featuring the Colosseum, Trevi Fountain marble sculptures, Pantheon dome, and Roman Forum ancient ruins. Surrounding cultural ephemera: a vintage mint-green Vespa scooter, classic yellow Fiat 500, old Italian postage stamps, and a handwritten gelato menu. Background features large flat geometric shapes in olive green and terracotta red acting as halos. Accented with '41.9028° N, 12.4964° E' in typewriter font, red postal cancellation stamps, and thin 0.5pt black navigational crosshairs. Bold clean sans-serif title 'ROMA' and elegant handwritten script 'La Città Eterna'. Inconsistent cutout lighting, literal flat stacking depth, faded halftone photo aesthetic, completely matte print finish. --no unified 3D lighting, seamless blending, modern digital photography, neon gradients --ar 3:2 --v 6.0 --style raw"
+    }
+  ],
+  "example_cases_2_3": [
+    {
+      "case_name": "London: The Royal Postcard (伦敦：皇家明信片)",
+      "environment_variables": {
+        "LOCATION_NAME": "LONDON, UK",
+        "KEY_LANDMARKS": "Big Ben clock tower, Tower Bridge suspension cables, St Paul's Cathedral dome, The Shard",
+        "TRANSIT_AND_CULTURE": "Classic red double-decker bus, vintage Underground roundel sign, black cab, Royal Mail postage stamp",
+        "GEOGRAPHIC_DATA": "51.5072° N, 0.1276° W"
+      },
+      "compiled_prompt": "Vintage travelogue maximalist map-collage, vertical towering layout on aged textured parchment. A dense interlocking vertical puzzle of photographic cutouts separated by thick white fibrous torn-paper edges. Featuring the tall Big Ben clock tower, Tower Bridge suspension cables, St Paul's Cathedral dome, and The Shard. Surrounding cultural ephemera: a classic red double-decker bus, vintage Underground roundel sign, black cab, and a Royal Mail postage stamp. Background features large flat geometric tall rectangles and circles in deep navy blue and pillar-box red acting as halos. Accented with '51.5072° N, 0.1276° W' in typewriter font, red postal cancellation stamps, and thin 0.5pt black navigational crosshairs. Bold clean sans-serif title 'LONDON' anchored at the top. Inconsistent cutout lighting, literal flat stacking depth, faded halftone photo aesthetic, completely matte print finish. --no unified 3D lighting, seamless blending, modern digital photography, neon gradients --ar 2:3 --v 6.0 --style raw"
+    },
+    {
+      "case_name": "Cairo: The Desert Chronicle (开罗：沙漠纪事)",
+      "environment_variables": {
+        "LOCATION_NAME": "CAIRO, EGYPT",
+        "KEY_LANDMARKS": "Towering Pyramids of Giza, The Great Sphinx, minarets of the Mosque of Muhammad Ali, ancient hieroglyphic stone fragments",
+        "TRANSIT_AND_CULTURE": "Traditional felucca sailboat on the Nile, vintage camel saddle, old Egyptian train ticket, faded Arabic calligraphy",
+        "GEOGRAPHIC_DATA": "30.0444° N, 31.2357° E"
+      },
+      "compiled_prompt": "Vintage travelogue maximalist map-collage, vertical towering layout on aged textured parchment. A dense interlocking vertical puzzle of photographic cutouts separated by thick white fibrous torn-paper edges. Featuring towering Pyramids of Giza, The Great Sphinx, minarets of the Mosque of Muhammad Ali, and ancient hieroglyphic stone fragments. Surrounding cultural ephemera: a traditional felucca sailboat on the Nile, vintage camel saddle, old Egyptian train ticket, and faded Arabic calligraphy. Background features large flat geometric overlapping circles in golden yellow and crimson red acting as halos. Accented with '30.0444° N, 31.2357° E' in typewriter font, black circular immigration chops, and thin 0.5pt black navigational crosshairs. Bold clean sans-serif title 'CAIRO' anchored at the top. Inconsistent cutout lighting, literal flat stacking depth, faded halftone photo aesthetic, completely matte print finish. --no unified 3D lighting, seamless blending, modern digital photography, neon gradients --ar 2:3 --v 6.0 --style raw"
+    },
+    {
+      "case_name": "Rio de Janeiro: The Tropical Scrapbook (里约：热带手账)",
+      "environment_variables": {
+        "LOCATION_NAME": "RIO DE JANEIRO, BRASIL",
+        "KEY_LANDMARKS": "Christ the Redeemer towering at the top, Sugarloaf Mountain, Selarón Steps, white arches of Lapa",
+        "TRANSIT_AND_CULTURE": "Vintage yellow bondinho (cable car), retro VW Kombi surf van, old Carnival mask, vintage airline boarding pass to GIG",
+        "GEOGRAPHIC_DATA": "22.9068° S, 43.1729° W"
+      },
+      "compiled_prompt": "Vintage travelogue maximalist map-collage, vertical towering layout on aged textured parchment. A dense interlocking vertical puzzle of photographic cutouts separated by thick white fibrous torn-paper edges. Featuring Christ the Redeemer towering at the top, Sugarloaf Mountain, Selarón Steps, and white arches of Lapa. Surrounding cultural ephemera: a vintage yellow bondinho cable car, retro VW Kombi surf van, old Carnival mask, and a vintage airline boarding pass. Background features large flat geometric shapes in forest green and vibrant yellow acting as halos. Accented with '22.9068° S, 43.1729° W' in typewriter font, red postal cancellation stamps, and thin 0.5pt black navigational crosshairs. Bold clean sans-serif title 'RIO' anchored at the top with messy handwritten script. Inconsistent cutout lighting, literal flat stacking depth, faded halftone photo aesthetic, completely matte print finish. --no unified 3D lighting, seamless blending, modern digital photography, neon gradients --ar 2:3 --v 6.0 --style raw"
+    },
+    {
+      "case_name": "Istanbul: The Crosscontinental Archive",
+      "environment_variables": {
+        "LOCATION_NAME": "ISTANBUL, TÜRKİYE",
+        "KEY_LANDMARKS": "Galata Tower anchoring the top, Hagia Sophia domes and minarets, Bosphorus Bridge suspension cables",
+        "TRANSIT_AND_CULTURE": "Vintage red Nostalgic Tramway, traditional Turkish tea glass, intricate Iznik tile patterns, hot air balloons",
+        "GEOGRAPHIC_DATA": "41.0082° N, 28.9784° E"
+      },
+      "compiled_prompt": "Vintage travelogue maximalist map-collage, vertical towering layout on aged textured parchment. A dense interlocking vertical puzzle of photographic cutouts separated by thick white fibrous torn-paper edges. Featuring the tall Galata Tower at the top, Hagia Sophia domes, and Bosphorus Bridge cables. Surrounding cultural ephemera: a vintage red Nostalgic Tramway, Turkish tea glass, Iznik tile patterns, and hot air balloons. Background features large flat geometric circles in crimson red and stark white acting as halos. Accented with '41.0082° N, 28.9784° E' in typewriter font, red postal cancellation stamps, and thin 0.5pt black navigational crosshairs. Bold clean sans-serif title 'ISTANBUL' anchored at the top. Inconsistent cutout lighting, literal flat stacking depth, faded halftone photo aesthetic, completely matte print finish. --no unified 3D lighting, seamless blending, modern digital photography, neon gradients --ar 2:3 --v 6.0 --style raw"
+    },
+    {
+      "case_name": "Venice: The Floating Scrapbook",
+      "environment_variables": {
+        "LOCATION_NAME": "VENICE, ITALY (VENEZIA)",
+        "KEY_LANDMARKS": "St Mark's Campanile towering at the top, Rialto Bridge stone arch, Basilica di San Marco domes",
+        "TRANSIT_AND_CULTURE": "Classic black Gondola with striped poles, ornate Venetian carnival mask, vintage Vaporetto water bus ticket, wax-sealed letter",
+        "GEOGRAPHIC_DATA": "45.4408° N, 12.3155° E"
+      },
+      "compiled_prompt": "Vintage travelogue maximalist map-collage, vertical towering layout on aged textured parchment. A dense interlocking vertical puzzle of photographic cutouts separated by thick white fibrous torn-paper edges. Featuring St Mark's Campanile towering at the top, Rialto Bridge, and Basilica di San Marco domes. Surrounding cultural ephemera: a classic black Gondola with striped poles, ornate Venetian carnival mask, vintage Vaporetto ticket, and a wax-sealed letter. Background features large flat geometric overlapping shapes in Venetian red and golden yellow acting as halos. Accented with '45.4408° N, 12.3155° E' in typewriter font, black circular immigration chops, and thin 0.5pt black navigational crosshairs. Bold bilingual title 'VENEZIA' anchored at the top. Inconsistent cutout lighting, literal flat stacking depth, faded halftone photo aesthetic, completely matte print finish. --no unified 3D lighting, seamless blending, modern digital photography, neon gradients --ar 2:3 --v 6.0 --style raw"
+    },
+    {
+      "case_name": "Dubai: The Desert Vertical",
+      "environment_variables": {
+        "LOCATION_NAME": "DUBAI, UAE",
+        "KEY_LANDMARKS": "Burj Khalifa piercing the top, Burj Al Arab sail structure, Museum of the Future ring, traditional wind towers",
+        "TRANSIT_AND_CULTURE": "Wooden Abra boat, vintage desert compass, traditional Arabic coffee pot (Dallah), old Emirates postage stamp",
+        "GEOGRAPHIC_DATA": "25.2048° N, 55.2708° E"
+      },
+      "compiled_prompt": "Vintage travelogue maximalist map-collage, vertical towering layout on aged textured parchment. A dense interlocking vertical puzzle of photographic cutouts separated by thick white fibrous torn-paper edges. Featuring the Burj Khalifa piercing the top, Burj Al Arab sail structure, Museum of the Future ring, and traditional wind towers. Surrounding cultural ephemera: a wooden Abra boat, vintage desert compass, Arabic coffee pot, and an old Emirates postage stamp. Background features large flat geometric tall rectangles in emerald green and striking red acting as halos. Accented with '25.2048° N, 55.2708° E' in typewriter font, red postal cancellation stamps, and thin 0.5pt black navigational crosshairs. Bold clean sans-serif title 'DUBAI' anchored at the top. Inconsistent cutout lighting, literal flat stacking depth, faded halftone photo aesthetic, completely matte print finish. --no unified 3D lighting, seamless blending, modern digital photography, neon gradients --ar 2:3 --v 6.0 --style raw"
+    },
+    {
+      "case_name": "Sydney: The Harbour Diary",
+      "environment_variables": {
+        "LOCATION_NAME": "SYDNEY, AUSTRALIA",
+        "KEY_LANDMARKS": "Sydney Tower Eye anchoring the top, Sydney Opera House white sails, Harbour Bridge steel arch, Bondi Beach ocean pool",
+        "TRANSIT_AND_CULTURE": "Vintage yellow Sydney ferry, retro surfboard, old Australian postal stamp with a kangaroo, aboriginal dot art fragment",
+        "GEOGRAPHIC_DATA": "33.8688° S, 151.2093° E"
+      },
+      "compiled_prompt": "Vintage travelogue maximalist map-collage, vertical towering layout on aged textured parchment. A dense interlocking vertical puzzle of photographic cutouts separated by thick white fibrous torn-paper edges. Featuring the Sydney Tower Eye anchoring the top, Sydney Opera House white sails, Harbour Bridge steel arch, and Bondi Beach ocean pool. Surrounding cultural ephemera: a vintage yellow Sydney ferry, retro surfboard, old Australian postal stamp with a kangaroo, and aboriginal dot art fragment. Background features large flat geometric circles in royal blue and crimson red acting as halos. Accented with '33.8688° S, 151.2093° E' in typewriter font, black circular postal cancellation marks, and thin 0.5pt black navigational crosshairs. Bold clean sans-serif title 'SYDNEY' anchored at the top. Inconsistent cutout lighting, literal flat stacking depth, faded halftone photo aesthetic, completely matte print finish. --no unified 3D lighting, seamless blending, modern digital photography, neon gradients --ar 2:3 --v 6.0 --style raw"
+    },
+    {
+      "case_name": "Havana: The Retro Caribbean",
+      "environment_variables": {
+        "LOCATION_NAME": "HAVANA, CUBA (LA HABANA)",
+        "KEY_LANDMARKS": "El Capitolio dome towering at the top, Castillo del Morro lighthouse, colonial baroque facades of Habana Vieja, Malecon seawall",
+        "TRANSIT_AND_CULTURE": "Classic 1950s pink Cadillac, vintage Cuban cigar band, Buena Vista Social Club concert ticket, maracas",
+        "GEOGRAPHIC_DATA": "23.1136° N, 82.3666° W"
+      },
+      "compiled_prompt": "Vintage travelogue maximalist map-collage, vertical towering layout on aged textured parchment. A dense interlocking vertical puzzle of photographic cutouts separated by thick white fibrous torn-paper edges. Featuring El Capitolio dome towering at the top, Castillo del Morro lighthouse, colonial baroque facades of Habana Vieja, and the Malecon seawall. Surrounding cultural ephemera: a classic 1950s pink Cadillac, vintage Cuban cigar band, Buena Vista Social Club concert ticket, and maracas. Background features large flat geometric overlapping shapes in navy blue, stark white, and red acting as halos. Accented with '23.1136° N, 82.3666° W' in typewriter font, red postal cancellation stamps, and thin 0.5pt black navigational crosshairs. Bold bilingual title 'LA HABANA' anchored at the top. Inconsistent cutout lighting, literal flat stacking depth, faded halftone photo aesthetic, completely matte print finish. --no unified 3D lighting, seamless blending, modern digital photography, neon gradients --ar 2:3 --v 6.0 --style raw"
+    }
+  ]
+}
