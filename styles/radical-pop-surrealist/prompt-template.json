@@ -1,0 +1,72 @@
+{
+  "style_name": "Identity.exe: Radical Pop-Surrealist Portrait Collage",
+  "style_summary": "A highly radical and aggressive mixed-media portrait collage. The canvas is a photorealistic human face (either user-uploaded or AI-generated) subjected to violent digital and physical redaction. Flesh is violently spliced with vintage computer hardware, pixelated UI elements, and CMYK halftone printer errors, held together by industrial staples and duct tape. It explores themes of digital privacy, algorithmic exploitation, and cyborg identity, acting as a visual critique of modern technology.",
+  
+  "subject_input_logic": {
+    "branch_1_image_uploaded": {
+      "trigger": "User provides a portrait photo",
+      "action": "Extract facial features as the absolute base layer. In Midjourney, use '--cref [IMAGE_URL] --cw 100'. Apply high-end studio lighting to the face before applying the collage destruction.",
+      "prompt_injection": "A highly realistic studio portrait of this specific person..."
+    },
+    "branch_2_text_generation": {
+      "trigger": "No image provided",
+      "action": "Generate a highly detailed, neutral-expression editorial portrait based on text variables.",
+      "prompt_injection": "A high-fashion editorial studio portrait of a [GENDER/AGE/ETHNICITY] looking directly at the camera with a deadpan expression..."
+    }
+  },
+
+  "environment_variables": {
+    "SUBJECT_PERSONA": "If Branch 2: define the person (e.g., 'young Asian woman with short black hair'). If Branch 1: leave empty or provide brief anchor text.",
+    "RADICAL_DESTRUCTION": "The specific physical/digital violation applied to the face. Must be visceral but not gory. (See the 3 specific thematic payloads below)",
+    "OVERLAY_QUOTE": "Swiss typography quote. e.g., 'SYSTEM OVERRIDE' or 'I AM NOT A ROBOT'."
+  },
+  
+  "composition": {
+    "layout_type": "Editorial Magazine Cover / Mugshot",
+    "zones": {
+      "typography_zone": "Aggressively overlaid. Can either float in the negative space or act as a physical redacted black bar covering the eyes.",
+      "focal_zone": "Dead center. The face occupies 60% of the canvas, demanding intense eye contact (if eyes are not redacted)."
+    },
+    "edge_treatment": "Skin transitioning into hardware/paper via rough tears, sliced edges, or CMYK halftone pixelation.",
+    "permissions": [
+      "mutilating the facial structure with non-organic objects",
+      "covering major facial features (eyes/mouth) entirely with UI elements"
+    ]
+  },
+  
+  "typography": {
+    "presence": "redaction_or_swiss_editorial",
+    "font_pairing_strategy": "Heavy, aggressive Swiss Grotesk (like Helvetica Black) mixed with monospace coder fonts (Courier).",
+    "color_logic": "Deep charcoal grey or stark cyber-red. Text can occasionally appear printed on realistic Dymo label-maker tape or rough masking tape."
+  },
+  
+  "visual_direction": {
+    "lighting": "Extreme contrast: The human face MUST have high-end, dramatic Rembrandt studio lighting (visible pores, soft skin highlights). The collage elements (UI, hardware) MUST be completely flat and matte, casting harsh physical drop shadows onto the skin.",
+    "material_textures": "Photorealistic flesh vs. dry masking tape, heavy industrial metal staples, exposed copper wires, and glossy printed paper strips.",
+    "surface_quality": "Mixed-media physical artwork scanned at high resolution."
+  },
+  
+  "graphic_elements": {
+    "physical_binders": {
+      "physical": "Industrial metal staples, silver duct tape, or ripped masking tape",
+      "placement": "Used to literally attach the digital UI elements onto the human skin",
+      "count": "2-4"
+    },
+    "facial_topology": {
+      "physical": "Fine, 0.5pt charcoal mesh lines wrapping around the 3D contour of the face",
+      "placement": "Drawn directly onto the bare skin, resembling AI facial recognition algorithms"
+    }
+  },
+  
+  "constraints": {
+    "do": [
+      "Ensure the portrait retains photographic realism before it is destroyed",
+      "Make the intersection between flesh and machine feel painful, heavy, or uncomfortable"
+    ],
+    "avoid": [
+      "generic 3D cyberpunk aesthetics (no glowing neon eyes, no sci-fi armor)",
+      "blood or gore (the violence must be structural and surreal, not physical horror)",
+      "beautification filters (must feel raw and editorial)"
+    ]
+  }
+}

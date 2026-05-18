@@ -1,0 +1,30 @@
+{
+  "example_cases_3_2": [
+    {
+      "case_name": "Idea 1: The Hardware Parasite (硬件寄生)",
+      "environment_variables": {
+        "SUBJECT_PERSONA": "A high-fashion editorial studio portrait of a young individual with a deadpan expression.",
+        "RADICAL_DESTRUCTION": "The lower half of the face is violently sliced away. Instead of flesh or bone, the cavity reveals a highly complex, densely packed mass of 1980s vintage server heat sinks, exposed copper wiring, and motherboard circuits. A retro Windows 95 'System Overload' dialog box is physically nailed to the cheek with industrial metal staples.",
+        "OVERLAY_QUOTE": "FLESH IS TEMPORARY. DATA IS FOREVER."
+      }
+    },
+    {
+      "case_name": "Idea 2: The CMYK Shredder (半调粉碎机)",
+      "environment_variables": {
+        "SUBJECT_PERSONA": "A dramatic, high-contrast black-and-white studio portrait of a person making intense eye contact.",
+        "RADICAL_DESTRUCTION": "The left side of the human face is physically passing through an invisible paper shredder. The skin is sliced into long, vertical hanging paper strips. At the edges of the tears, the realistic skin degrades into bright, oversized CMYK (Cyan, Magenta, Yellow, Black) halftone printing dots. A red laser barcode scanner line cuts across the forehead.",
+        "OVERLAY_QUOTE": "CORRUPTED FILE."
+      }
+    },
+    {
+      "case_name": "Idea 3: The Captcha Redaction (验证码剥夺)",
+      "environment_variables": {
+        "SUBJECT_PERSONA": "A raw, highly detailed front-facing portrait (like a police mugshot or passport photo) of a person.",
+        "RADICAL_DESTRUCTION": "The person's eyes and upper nose are aggressively censored by a massive, dirty, physical piece of torn paper slapped onto the skin with rough silver duct tape. The torn paper features a distorted internet Captcha box that reads 'Select all images with a human soul'. The visible skin on the cheeks is covered in thin, AI facial-recognition topology grid lines drawn in black ink.",
+        "OVERLAY_QUOTE": "I AM NOT A ROBOT."
+      }
+    }
+  ],
+
+  "example_cases_16_9": []
+}
