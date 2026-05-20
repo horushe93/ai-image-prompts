@@ -1,0 +1,112 @@
+{
+  "example_cases_1_1": [
+    {
+      "case_name": "Web3 Blockchain Developer (Web3 区块链极客)",
+      "environment_variables": {
+        "DUOTONE_COLORS": "Cyber-Neon Pink and Void Black",
+        "HERO_TEXT": "WEB3 BUILDER",
+        "PHOTO_WALL_TEXT": "CODE > TRUST > VERIFY",
+        "PHOTOGRAPHIC_SUBJECT": "A hooded coder working on multi-monitor setups in a dark server room, and a hand holding a hardware crypto wallet",
+        "PRIMARY_FEATURE_TEXT": "DECENTRALIZED FUTURE * 100% SECURE",
+        "SECONDARY_PROMO_TEXT": "0 gas fees on Layer 2 networks",
+        "FOOTER_TAGLINE": "ALL-ACCESS * BLOCKCHAIN HUB",
+        "CERTIFICATE_DETAILS": "SMART CONTRACT DEPLOYED... 'Satoshi' (in script)... DATE MAY 18, 2026"
+      },
+      "compiled_prompt": "Duotone bento-box brutalist UI poster, strict 1:1 square modular masonry grid layout with rounded corners. Harsh 2-color duotone palette of cyber-neon pink and void black. Massive brutalist ultra-black weight sans-serif text 'WEB3 BUILDER' filling the largest left bento block. Environmental text 'CODE > TRUST > VERIFY' on a background wall. Solid pink cards feature heavy sans-serif text 'DECENTRALIZED FUTURE * 100% SECURE'. Black outlined cards feature tall condensed text '0 gas fees on Layer 2 networks'. Footer reads 'ALL-ACCESS * BLOCKCHAIN HUB'. Photographic inserts feature a hooded coder working on multi-monitor setups, and a hand holding a hardware crypto wallet displaying text 'SMART CONTRACT DEPLOYED' and an elegant handwritten signature 'Satoshi'. Wireframe tech icons like globes and arrows. All photorealistic elements are heavily filtered through the pink and black duotone gradient. Flat UI, uniform black gutters. --no white, realistic skin tones, 3D extrusions, drop shadows, glassmorphism, third colors --ar 1:1 --v 6.0 --style raw"
+    },
+    {
+      "case_name": "Underground Techno Rave (地下电子音乐节)",
+      "environment_variables": {
+        "DUOTONE_COLORS": "Toxic Acid Green and Void Black",
+        "HERO_TEXT": "TECHNO RAVE",
+        "PHOTO_WALL_TEXT": "BASS > RHYTHM > SOUL",
+        "PHOTOGRAPHIC_SUBJECT": "A DJ adjusting knobs on a mixing console in a smoke-filled club, and a hand holding a vinyl record sleeve",
+        "PRIMARY_FEATURE_TEXT": "ALL NIGHT LONG * NO LIMITS",
+        "SECONDARY_PROMO_TEXT": "Underground warehouse secret location",
+        "FOOTER_TAGLINE": "VIP GUESTLIST * BERLIN SOUND",
+        "CERTIFICATE_DETAILS": "VIP BACKSTAGE PASS... 'Guest Artist' (in script)... DATE MAY 18, 2026"
+      },
+      "compiled_prompt": "Duotone bento-box brutalist UI poster, strict 1:1 square modular masonry grid layout with rounded corners. Harsh 2-color duotone palette of toxic acid green and void black. Massive brutalist ultra-black weight sans-serif text 'TECHNO RAVE' filling the largest left bento block. Environmental text 'BASS > RHYTHM > SOUL' on a background wall. Solid green cards feature heavy sans-serif text 'ALL NIGHT LONG * NO LIMITS'. Black outlined cards feature tall condensed text 'Underground warehouse secret location'. Footer reads 'VIP GUESTLIST * BERLIN SOUND'. Photographic inserts feature a DJ adjusting knobs on a mixing console, and a hand holding a vinyl record sleeve displaying text 'VIP BACKSTAGE PASS' and an elegant handwritten signature 'Guest Artist'. Wireframe tech icons like globes and arrows. All photorealistic elements are heavily filtered through the green and black duotone gradient. Flat UI, uniform black gutters. --no white, realistic skin tones, 3D extrusions, drop shadows, glassmorphism, third colors --ar 1:1 --v 6.0 --style raw"
+    },
+    {
+      "case_name": "Hardcore Fitness Gym (硬核健身馆)",
+      "environment_variables": {
+        "DUOTONE_COLORS": "Alert Orange and Void Black",
+        "HERO_TEXT": "IRON FORGE",
+        "PHOTO_WALL_TEXT": "PAIN > POWER > GLORY",
+        "PHOTOGRAPHIC_SUBJECT": "An athlete lifting heavy barbells covered in chalk, and a hand holding a crushed metal energy drink can",
+        "PRIMARY_FEATURE_TEXT": "30 DAYS CHALLENGE * UNLIMITED GYM",
+        "SECONDARY_PROMO_TEXT": "Train until absolute muscle failure",
+        "FOOTER_TAGLINE": "MEMBERS ONLY * ELITE FITNESS",
+        "CERTIFICATE_DETAILS": "ELITE MEMBERSHIP... 'Beast Mode' (in script)... DATE MAY 18, 2026"
+      },
+      "compiled_prompt": "Duotone bento-box brutalist UI poster, strict 1:1 square modular masonry grid layout with rounded corners. Harsh 2-color duotone palette of alert orange and void black. Massive brutalist ultra-black weight sans-serif text 'IRON FORGE' filling the largest left bento block. Environmental text 'PAIN > POWER > GLORY' on a background wall. Solid orange cards feature heavy sans-serif text '30 DAYS CHALLENGE * UNLIMITED GYM'. Black outlined cards feature tall condensed text 'Train until absolute muscle failure'. Footer reads 'MEMBERS ONLY * ELITE FITNESS'. Photographic inserts feature an athlete lifting heavy barbells, and a hand holding a crushed metal energy drink can displaying text 'ELITE MEMBERSHIP' and an elegant handwritten signature 'Beast Mode'. Wireframe tech icons like globes and arrows. All photorealistic elements are heavily filtered through the orange and black duotone gradient. Flat UI, uniform black gutters. --no white, realistic skin tones, 3D extrusions, drop shadows, glassmorphism, third colors --ar 1:1 --v 6.0 --style raw"
+    },
+    {
+      "case_name": "AI Creative Agency (AI 创意工作室)",
+      "environment_variables": {
+        "DUOTONE_COLORS": "Electric Cyan and Void Black",
+        "HERO_TEXT": "GEN AI VISION",
+        "PHOTO_WALL_TEXT": "PIXELS > VECTORS > REALITY",
+        "PHOTOGRAPHIC_SUBJECT": "A futuristic designer wearing AR glasses looking at floating digital art, and a hand holding a 3D printed prototype",
+        "PRIMARY_FEATURE_TEXT": "MIDJOURNEY V6 PRO * UNLIMITED GENS",
+        "SECONDARY_PROMO_TEXT": "Ultimate prompt library fully unlocked",
+        "FOOTER_TAGLINE": "CREATIVE SUITE * AI DESIGN",
+        "CERTIFICATE_DETAILS": "CERTIFIED PROMPT MASTER... 'Visionary' (in script)... DATE MAY 18, 2026"
+      },
+      "compiled_prompt": "Duotone bento-box brutalist UI poster, strict 1:1 square modular masonry grid layout with rounded corners. Harsh 2-color duotone palette of electric cyan and void black. Massive brutalist ultra-black weight sans-serif text 'GEN AI VISION' filling the largest left bento block. Environmental text 'PIXELS > VECTORS > REALITY' on a background wall. Solid cyan cards feature heavy sans-serif text 'MIDJOURNEY V6 PRO * UNLIMITED GENS'. Black outlined cards feature tall condensed text 'Ultimate prompt library fully unlocked'. Footer reads 'CREATIVE SUITE * AI DESIGN'. Photographic inserts feature a designer wearing AR glasses, and a hand holding a 3D printed prototype displaying text 'CERTIFIED PROMPT MASTER' and an elegant handwritten signature 'Visionary'. Wireframe tech icons like globes and arrows. All photorealistic elements are heavily filtered through the cyan and black duotone gradient. Flat UI, uniform black gutters. --no white, realistic skin tones, 3D extrusions, drop shadows, glassmorphism, third colors --ar 1:1 --v 6.0 --style raw"
+    },
+    {
+      "case_name": "Experimental Culinary Lab (分子料理实验室)",
+      "environment_variables": {
+        "DUOTONE_COLORS": "Acid Lime Yellow and Void Black",
+        "HERO_TEXT": "TASTE MATRIX",
+        "PHOTO_WALL_TEXT": "CRAFT > TASTE > EVOLVE",
+        "PHOTOGRAPHIC_SUBJECT": "An avant-garde chef using liquid nitrogen on a geometric dessert, and a hand holding precise culinary tweezers plating micro-greens",
+        "PRIMARY_FEATURE_TEXT": "12 COURSE TASTING * EXPERIMENTAL",
+        "SECONDARY_PROMO_TEXT": "Redefining the boundaries of flavor",
+        "FOOTER_TAGLINE": "MICHELIN * GASTRO LAB",
+        "CERTIFICATE_DETAILS": "CULINARY INNOVATOR... 'Head Chef' (in script)... DATE MAY 20, 2026"
+      }
+    },
+    {
+      "case_name": "Deep Space Exploration (深空探索计划)",
+      "environment_variables": {
+        "DUOTONE_COLORS": "Acid Lime Yellow and Void Black",
+        "HERO_TEXT": "MARS ORBIT",
+        "PHOTO_WALL_TEXT": "LAUNCH > ORBIT > LAND",
+        "PHOTOGRAPHIC_SUBJECT": "An astronaut in a sleek modern spacesuit adjusting a helmet visor, and a hand holding a rough glowing lunar rock sample",
+        "PRIMARY_FEATURE_TEXT": "ORBITAL LAUNCH * ZERO GRAVITY",
+        "SECONDARY_PROMO_TEXT": "Join the next interplanetary colony",
+        "FOOTER_TAGLINE": "AEROSPACE * COMMAND CENTER",
+        "CERTIFICATE_DETAILS": "MISSION CLEARANCE... 'Flight Director' (in script)... DATE MAY 20, 2026"
+      }
+    },
+    {
+      "case_name": "Indie Film Festival (独立电影展)",
+      "environment_variables": {
+        "DUOTONE_COLORS": "Acid Lime Yellow and Void Black",
+        "HERO_TEXT": "AUTEUR FEST",
+        "PHOTO_WALL_TEXT": "WRITE > SHOOT > EDIT",
+        "PHOTOGRAPHIC_SUBJECT": "A director looking through a cinematic camera viewfinder, and a hand holding a marked-up script next to a vintage clapperboard",
+        "PRIMARY_FEATURE_TEXT": "48 HOUR PROJECT * UNCUT VISION",
+        "SECONDARY_PROMO_TEXT": "Showcasing raw independent cinema",
+        "FOOTER_TAGLINE": "VIP PASS * DIRECTOR'S CUT",
+        "CERTIFICATE_DETAILS": "OFFICIAL SELECTION... 'Jury President' (in script)... DATE MAY 20, 2026"
+      }
+    },
+    {
+      "case_name": "Vertical Hydroponics Farm (垂直水培农场)",
+      "environment_variables": {
+        "DUOTONE_COLORS": "Acid Lime Yellow and Void Black",
+        "HERO_TEXT": "URBAN FLORA",
+        "PHOTO_WALL_TEXT": "PLANT > GROW > HARVEST",
+        "PHOTOGRAPHIC_SUBJECT": "A botanist inspecting glowing hydroponic plant roots in a high-tech greenhouse, and a hand holding a digital soil moisture sensor",
+        "PRIMARY_FEATURE_TEXT": "100% ORGANIC * ZERO PESTICIDES",
+        "SECONDARY_PROMO_TEXT": "Sustainable farming for the future city",
+        "FOOTER_TAGLINE": "ECO TECH * GREEN HUB",
+        "CERTIFICATE_DETAILS": "CERTIFIED SUSTAINABLE... 'Lead Botanist' (in script)... DATE MAY 20, 2026"
+      }
+    }
+  ]
+}

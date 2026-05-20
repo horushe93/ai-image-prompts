@@ -24,14 +24,14 @@ The user must provide, or be prompted for:
 Defaults (can be overridden by the user):
 - Channel: `replicate`
 - Model: `openai/gpt-image-2`
-- Quality: `high` (Replicate only; ignored by Gemini)
+- Quality: `low` / `medium` / `high` (Replicate only; optional, omit for script default)
 - Output format: `png`
 
 ### Channel / Model Reference
 
 | Channel | `--channel` | Supported models (`--model`) | Notes |
 |---|---|---|---|
-| Replicate | `replicate` | `openai/gpt-image-2` (default) | `--quality low\|medium\|high`; API only accepts aspect ratios 1:1, 3:2, 2:3 |
+| Replicate | `replicate` | `openai/gpt-image-2` (default) | `--quality low\|medium\|high` (optional); API only accepts aspect ratios 1:1, 3:2, 2:3 |
 | Gemini | `gemini` | `nano-banana`, `nano-banana-2` (default), `nano-banana-pro` | Supports arbitrary aspect ratios via `--aspect-ratio` flag; no quality parameter |
 
 ## Style Name Resolution
@@ -120,7 +120,6 @@ npx tsx "$IMAGE_GEN" \
   --file "$FIRST" \
   --channel replicate \
   --model openai/gpt-image-2 \
-  --quality high \
   --output "$OUT_DIR/01.png"
 ```
 
@@ -134,8 +133,6 @@ export IMAGE_GEN=/home/node/.claude/skills/image-gen/scripts/generate.ts
 export OUT_DIR=styles/<style>/preview/<snake_case_ratio>
 export CHANNEL=<channel>
 export MODEL=<model>
-# Replicate only:
-export QUALITY=high
 # Gemini only: include --aspect-ratio in the inner command
 
 tail -n +2 /tmp/json-image-<style>-<ratio>/manifest.txt \

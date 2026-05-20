@@ -1,0 +1,94 @@
+{
+  "style_name": "Duotone bento-box brutalist UI poster",
+  "style_summary": "A high-impact, digital-native promotional poster utilizing a strict bento-box grid. The visual vocabulary is entirely constrained to a stark two-color duotone palette. It merges a complex typographic system (ranging from massive brutalist sans-serifs to elegant handwritten scripts and tall condensed fonts) with wireframe tech icons. The integrated photography acts as contextual canvases, also heavily treated with a monochrome duotone filter. The aesthetic is tech-forward, utilitarian, and hacker-chic.",
+  
+  "environment_variables": {
+    "HERO_TEXT": "GPT IMAGE 2 (Massive brutalist block)",
+    "PHOTO_WALL_TEXT": "IDEAS > PROMPTS > IMPACT (Environmental text inside the top-right photo)",
+    "PRIMARY_FEATURE_TEXT": "365 DAYS PROGRAM • UNLIMITED ACCESS (Heavy sans-serif inside solid pill)",
+    "SECONDARY_PROMO_TEXT": "7 days of 0-credit Fast Gens (Tall condensed text inside outlined card)",
+    "FOOTER_TAGLINE": "ALL-ACCESS • PROMPT STUDIO",
+    "CERTIFICATE_DETAILS": "CERTIFICATE OF COMPLETION... 'Creative Thinker' (in script)... DATE MAY 29, 2025"
+  },
+  
+  "composition": {
+    "layout_type": "Strict modular bento-box masonry grid",
+    "zones": {
+      "typography_zone": "Multiple blocks scaling from massive 100pt hero text down to 10pt certificate micro-copy",
+      "focal_zone": "The human interaction photos (working at laptop, holding paper) placed in the right column",
+      "negative_space": "Zero internal negative space; it is entirely replaced by uniform thick black gutters separating the modules"
+    },
+    "depth_logic": "Flat UI for the grid. Environmental depth exists ONLY inside the photographic inserts, flattened by the harsh duotone color mapping.",
+    "scale_contrast": "Extreme contrast between the container-filling 'GPT IMAGE 2' and the delicate handwritten signature on the certificate.",
+    "edge_treatment": "Every modular card has uniform rounded border-radii. Photography must crop perfectly to these rounded corners."
+  },
+  
+  "typography": {
+    "presence": "hero_informational_mixed",
+    "font_pairing_strategy": "Industrial brutalist meets functional tech and personal handwriting.",
+    "hierarchy": [
+      {
+        "role": "hero_headline",
+        "style": "Ultra-black weight sans-serif (e.g., Impact or Helvetica Black), tightly kerned",
+        "position": "Filling the largest left bento block"
+      },
+      {
+        "role": "functional_highlight",
+        "style": "Heavy Grotesk sans-serif, all-caps",
+        "position": "Solid yellow primary feature blocks"
+      },
+      {
+        "role": "secondary_info",
+        "style": "Tall, condensed/narrow sans-serif, mixed case",
+        "position": "Black outlined blocks (e.g., '7 days of 0-credit...')"
+      },
+      {
+        "role": "personal_touch",
+        "style": "Elegant handwritten cursive/script",
+        "position": "Inside the certificate photo ('Creative Thinker', Signature)"
+      }
+    ],
+    "text_constraints": [
+      "Ensure strong visual separation between the heavy geometric fonts and the delicate script fonts",
+      "Text must respect the boundaries of its respective bento card"
+    ]
+  },
+  
+  "color_palette": {
+    "acid_lime_yellow": "#D4F34A",
+    "void_black": "#000000"
+  },
+  
+  "color_constraints": {
+    "dominant": "Strict 2-color duotone interplay.",
+    "special_rules": "All photorealistic elements (faces, hands, laptops, paper, background walls) MUST be mapped to the black/lime-yellow duotone gradient.",
+    "forbidden": [
+      "white (#FFFFFF)",
+      "any third color or realistic skin tones"
+    ]
+  },
+  
+  "graphic_elements": {
+    "bento_cards": {
+      "physical": "Rounded rectangles. Mix of solid yellow fills and black fills with thin yellow strokes",
+      "placement": "Tightly packed into a masonry layout",
+      "count": "5-6 distinct zones"
+    },
+    "wireframe_icons": {
+      "physical": "Thin 1pt line-art vector icons (wireframe globe, right-pointing arrow)",
+      "placement": "Anchoring text inside the smaller UI cards",
+      "count": "2-3"
+    }
+  },
+  
+  "constraints": {
+    "do": [
+      "Apply the duotone filter globally over both vector UI and photographic layers",
+      "Use mixed typography (Heavy + Condensed + Script) to create reading rhythm"
+    ],
+    "avoid": [
+      "glassmorphism, drop shadows, or 3D extrusions",
+      "using the same font weight for every single text block"
+    ]
+  }
+}

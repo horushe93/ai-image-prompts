@@ -1,0 +1,60 @@
+{
+  "example_cases_1_1": [
+    {
+      "case_name": "Cyberpunk Streetwear Brand (赛博街头潮牌)",
+      "environment_variables": {
+        "DUOTONE_COLORS": "Electric Cobalt Blue and Void Black",
+        "HERO_TEXT": "CORE APPAREL",
+        "PHOTO_WALL_TEXT": "FABRIC > FORM > FUTURE",
+        "PHOTOGRAPHIC_SUBJECT": "A streetwear model wearing a futuristic tactical jacket, and a hand holding a highly detailed chunky sneaker",
+        "PRIMARY_FEATURE_TEXT": "SEASON 04 DROP * LIMITED RUN",
+        "SECONDARY_PROMO_TEXT": "Worldwide shipping in 24 hours",
+        "FOOTER_TAGLINE": "TOKYO * LONDON * NEW YORK",
+        "CERTIFICATE_DETAILS": "CERTIFICATE OF AUTHENTICITY... 'Lead Designer' (in script)... DATE MAY 18, 2026"
+      },
+      "compiled_prompt": "Duotone bento-box brutalist UI poster, strict 1:1 square modular masonry grid layout with rounded corners. Harsh 2-color duotone palette of electric cobalt blue and void black. Massive brutalist ultra-black weight sans-serif text 'CORE APPAREL' filling the largest left bento block. Environmental text 'FABRIC > FORM > FUTURE' on a background wall. Solid cobalt blue cards feature heavy sans-serif text 'SEASON 04 DROP * LIMITED RUN'. Black outlined cards feature tall condensed text 'Worldwide shipping in 24 hours'. Footer reads 'TOKYO * LONDON * NEW YORK'. Photographic inserts feature a streetwear model wearing a futuristic tactical jacket, and a hand holding a highly detailed chunky sneaker displaying text 'CERTIFICATE OF AUTHENTICITY' and an elegant handwritten signature 'Lead Designer'. Wireframe tech icons like globes and arrows. All photorealistic elements are heavily filtered through the cobalt blue and black duotone gradient. Flat UI, uniform black gutters. --no white, realistic skin tones, 3D extrusions, drop shadows, glassmorphism, third colors --ar 1:1 --v 6.0 --style raw"
+    },
+    {
+      "case_name": "E-Sports Global Tournament (硬核电竞赛事)",
+      "environment_variables": {
+        "DUOTONE_COLORS": "Electric Cobalt Blue and Void Black",
+        "HERO_TEXT": "GLOBAL FINALS",
+        "PHOTO_WALL_TEXT": "FOCUS > REFLEX > WIN",
+        "PHOTOGRAPHIC_SUBJECT": "A pro gamer intensely staring at a monitor wearing a heavy headset, and a hand raising a geometric metal trophy",
+        "PRIMARY_FEATURE_TEXT": "$1M PRIZE POOL * LIVE ARENA",
+        "SECONDARY_PROMO_TEXT": "Broadcast starts at zero hour",
+        "FOOTER_TAGLINE": "ALL-ACCESS * VIP STREAM",
+        "CERTIFICATE_DETAILS": "CHAMPIONSHIP TICKET... 'MVP Player' (in script)... DATE MAY 18, 2026"
+      },
+      "compiled_prompt": "Duotone bento-box brutalist UI poster, strict 1:1 square modular masonry grid layout with rounded corners. Harsh 2-color duotone palette of electric cobalt blue and void black. Massive brutalist ultra-black weight sans-serif text 'GLOBAL FINALS' filling the largest left bento block. Environmental text 'FOCUS > REFLEX > WIN' on a background wall. Solid cobalt blue cards feature heavy sans-serif text '$1M PRIZE POOL * LIVE ARENA'. Black outlined cards feature tall condensed text 'Broadcast starts at zero hour'. Footer reads 'ALL-ACCESS * VIP STREAM'. Photographic inserts feature a pro gamer intensely staring at a monitor wearing a heavy headset, and a hand raising a geometric metal trophy displaying text 'CHAMPIONSHIP TICKET' and an elegant handwritten signature 'MVP Player'. Wireframe tech icons like globes and arrows. All photorealistic elements are heavily filtered through the cobalt blue and black duotone gradient. Flat UI, uniform black gutters. --no white, realistic skin tones, 3D extrusions, drop shadows, glassmorphism, third colors --ar 1:1 --v 6.0 --style raw"
+    },
+    {
+      "case_name": "Vanguard Architecture Firm (前卫建筑事务所)",
+      "environment_variables": {
+        "DUOTONE_COLORS": "Electric Cobalt Blue and Void Black",
+        "HERO_TEXT": "FORM STUDIO",
+        "PHOTO_WALL_TEXT": "PLAN > BUILD > LAST",
+        "PHOTOGRAPHIC_SUBJECT": "An architect reviewing large blueprint rolls on a drafting table, and a hand holding a heavy concrete material texture sample",
+        "PRIMARY_FEATURE_TEXT": "BRUTALIST STRUCTURES * MODERN",
+        "SECONDARY_PROMO_TEXT": "Redefining urban concrete landscapes",
+        "FOOTER_TAGLINE": "ARCHITECTURAL * EXCELLENCE",
+        "CERTIFICATE_DETAILS": "APPROVED CITY PERMIT... 'Chief Architect' (in script)... DATE MAY 18, 2026"
+      },
+      "compiled_prompt": "Duotone bento-box brutalist UI poster, strict 1:1 square modular masonry grid layout with rounded corners. Harsh 2-color duotone palette of electric cobalt blue and void black. Massive brutalist ultra-black weight sans-serif text 'FORM STUDIO' filling the largest left bento block. Environmental text 'PLAN > BUILD > LAST' on a background wall. Solid cobalt blue cards feature heavy sans-serif text 'BRUTALIST STRUCTURES * MODERN'. Black outlined cards feature tall condensed text 'Redefining urban concrete landscapes'. Footer reads 'ARCHITECTURAL * EXCELLENCE'. Photographic inserts feature an architect reviewing large blueprint rolls on a drafting table, and a hand holding a heavy concrete material texture sample displaying text 'APPROVED CITY PERMIT' and an elegant handwritten signature 'Chief Architect'. Wireframe tech icons like globes and arrows. All photorealistic elements are heavily filtered through the cobalt blue and black duotone gradient. Flat UI, uniform black gutters. --no white, realistic skin tones, 3D extrusions, drop shadows, glassmorphism, third colors --ar 1:1 --v 6.0 --style raw"
+    },
+    {
+      "case_name": "Future FinTech App (未来金融科技应用)",
+      "environment_variables": {
+        "DUOTONE_COLORS": "Electric Cobalt Blue and Void Black",
+        "HERO_TEXT": "PAY MATRIX",
+        "PHOTO_WALL_TEXT": "SPEED > SCALE > SECURE",
+        "PHOTOGRAPHIC_SUBJECT": "A user tapping a sleek smartphone screen displaying financial charts, and a hand holding a minimalist metallic credit card",
+        "PRIMARY_FEATURE_TEXT": "INSTANT TRANSFERS * ZERO FEES",
+        "SECONDARY_PROMO_TEXT": "Unlock your financial autonomy",
+        "FOOTER_TAGLINE": "GLOBAL NETWORK * 24/7 SUPPORT",
+        "CERTIFICATE_DETAILS": "PREMIUM ACCOUNT HOLDER... 'Verified User' (in script)... DATE MAY 18, 2026"
+      },
+      "compiled_prompt": "Duotone bento-box brutalist UI poster, strict 1:1 square modular masonry grid layout with rounded corners. Harsh 2-color duotone palette of electric cobalt blue and void black. Massive brutalist ultra-black weight sans-serif text 'PAY MATRIX' filling the largest left bento block. Environmental text 'SPEED > SCALE > SECURE' on a background wall. Solid cobalt blue cards feature heavy sans-serif text 'INSTANT TRANSFERS * ZERO FEES'. Black outlined cards feature tall condensed text 'Unlock your financial autonomy'. Footer reads 'GLOBAL NETWORK * 24/7 SUPPORT'. Photographic inserts feature a user tapping a sleek smartphone screen displaying financial charts, and a hand holding a minimalist metallic credit card displaying text 'PREMIUM ACCOUNT HOLDER' and an elegant handwritten signature 'Verified User'. Wireframe tech icons like globes and arrows. All photorealistic elements are heavily filtered through the cobalt blue and black duotone gradient. Flat UI, uniform black gutters. --no white, realistic skin tones, 3D extrusions, drop shadows, glassmorphism, third colors --ar 1:1 --v 6.0 --style raw"
+    }
+  ]
+}
