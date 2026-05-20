@@ -1,0 +1,99 @@
+{
+  "style_name": "Swiss typographic collage biography",
+  "style_summary": "A horizontal 3:2 biography poster merging the strict, rational grid systems of Swiss International Style with raw physical collage elements. The left 40% features a high-contrast, halftone-printed portrait cutout with rough torn-paper edges. The right 60% is a pristine typographic grid rendering a multi-line chronological timeline. The color palette is highly restrained to aged parchment, dark charcoal ink, and a single vibrant accent color. The aesthetic is intellectual, historically weighty, and brutally clean.",
+
+  "environment_variables": {
+    "SUBJECT_NAME": "The main headline name. e.g., 'ANDREJ KARPATHY'",
+    "SUBJECT_PORTRAIT": "Description of the person for the left column. e.g., 'A thoughtful portrait of Andrej Karpathy wearing casual tech attire'",
+    "ACCENT_COLOR_NAME": "The semantic name of the brand/accent color. e.g., 'Anthropic Peach' or 'Swiss Red'",
+    "TIMELINE_DATA": "The exact chronological text block to be rendered in the right column. (Can be up to 10-15 lines)"
+  },
+
+  "composition": {
+    "layout_type": "Asymmetrical split-screen Swiss grid (3:2 Landscape)",
+    "zones": {
+      "left_portrait_zone": "Occupies the left 40% of the canvas. The portrait is anchored at the bottom edge, breaking out of a torn paper frame.",
+      "right_typography_zone": "Occupies the right 60% of the canvas. Features an invisible but strict vertical alignment line (flush-left) where all timeline text begins.",
+      "negative_space": "Ample negative space above the portrait and between the timeline lines to let the parchment texture breathe."
+    },
+    "depth_logic": "Literal paper stacking for the left portrait (torn paper over background), but absolutely 2D flat printing for the right typography and grid lines.",
+    "scale_contrast": "Massive scale for the SUBJECT_NAME, contrasting with the highly structured, medium-scale chronological TIMELINE_DATA.",
+    "edge_treatment": "Violent contrast: the portrait has rough, fibrous white torn edges, while all typography and background grid lines are razor-sharp vector lines.",
+    "permissions": [
+      "rendering extremely long blocks of text flawlessly",
+      "applying halftone newspaper dot textures to photorealistic faces"
+    ]
+  },
+
+  "typography": {
+    "presence": "vintage_newspaper_editorial",
+    "letterform_character": "Distressed, letterpress, vintage newsprint, slight ink bleed, physically stamped",
+    "hierarchy": [
+      {
+        "role": "hero_name",
+        "style": "Heavy vintage headline sans-serif, distressed edges",
+        "treatment": "Must show visible physical printing artifacts like faded toner and rough stamped edges",
+        "position": "Top-right quadrant",
+        "color_rule": "Faded charcoal ink (not pure black)"
+      },
+      {
+        "role": "timeline_text",
+        "style": "Old mechanical typewriter or hot-metal classifieds font",
+        "treatment": "Slight variations in ink weight to simulate analog printing, meticulously aligned",
+        "position": "Right typography zone",
+        "color_rule": "Faded charcoal ink"
+      }
+    ],
+    "readability_rule": "Maintain the rigorous Swiss grid alignment, but degrade the letterforms to look like an archival 1960s newspaper clipping.",
+    "text_constraints": [
+      "Strictly NO crisp digital vector fonts",
+      "Text must look physically absorbed into the parchment background"
+    ]
+  },
+
+  "color_palette": {
+    "parchment_beige": "#EFEAE0",
+    "charcoal_ink": "#2B2B2B",
+    "primary_accent_color": "Mapped dynamically to ACCENT_COLOR_NAME"
+  },
+
+  "color_constraints": {
+    "dominant": "parchment_beige acts as the canvas, charcoal_ink for all text and portraits.",
+    "accent_roles": "primary_accent_color is used surgically: perhaps a flat geometric rectangle behind the portrait, or highlighting the most recent timeline entry.",
+    "special_rules": "The SUBJECT_PORTRAIT must be converted strictly to a black-and-white halftone (newsprint dot) texture. No realistic skin tones.",
+    "forbidden": ["realistic full-color photography", "gradients", "more than one accent color"]
+  },
+
+  "visual_direction": {
+    "lighting": "Flat, scanned 2D lighting. No 3D shadows.",
+    "mood": "Visionary, academic, structured, premium tech-editorial.",
+    "material_textures": "Textured aged paper, dry toner ink, fibrous torn paper.",
+    "print_finish": "High-end vintage magazine spread / Swiss poster",
+    "surface_quality": "Completely matte with visible paper grain."
+  },
+
+  "graphic_elements": {
+    "swiss_grid_lines": {
+      "physical": "0.5pt extremely thin charcoal lines",
+      "placement": "Creating a subtle structural grid in the background, especially a vertical line separating the year from the job title in the timeline",
+      "count": "2-4 lines"
+    },
+    "geometric_color_block": {
+      "physical": "A perfect, flat rectangle in the ACCENT_COLOR",
+      "placement": "Used as a backdrop contrasting with the torn edges of the portrait",
+      "count": "1"
+    }
+  },
+
+  "constraints": {
+    "do": [
+      "Strictly separate the visual zone (left) and data zone (right)",
+      "Maintain rigorous flush-left alignment for the long text block"
+    ],
+    "avoid": [
+      "center-aligned text (breaks the Swiss style)",
+      "messy or distorted fonts for the timeline",
+      "colored portraits"
+    ]
+  }
+}

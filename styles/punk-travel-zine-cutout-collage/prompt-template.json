@@ -1,0 +1,101 @@
+{
+  "style_name": "Punk travel zine cutout collage",
+  "style_summary": "A high-energy, DIY punk zine mixed-media collage on a vibrant royal blue textured ground. The visual vocabulary strictly pairs completely grayscale vintage photographic cutouts with chaotic, mismatched magazine cutout typography (individual cut-and-paste letters). The graphic language is loud, featuring extremely rough white torn-paper borders and energetic hand-drawn marker doodles (arrows, scribbles) in bright safety orange and dark ink. The aesthetic is rebellious, adventurous, and distinctly handmade.",
+  
+  "environment_variables": {
+    "MAIN_SUBJECT": "The central object, which MUST be a grayscale/black-and-white photographic cutout. e.g., 'a vintage prop airplane', 'a textured retro suitcase', or 'an antique desk globe'.",
+    "HEADLINE_TEXT": "A short, punchy 1-3 word phrase to be spelled out in mismatched cut-out letters. e.g., 'GO', 'KEEP MOVING', or 'NEW HORIZON'.",
+    "DOODLE_THEME": "The specific semantic shapes for the hand-drawn marker overlays. e.g., 'speed lines and paper airplanes' or 'directional arrows and cross marks'."
+  },
+  
+  "composition": {
+    "layout_type": "Centralized punchy DIY zine layout",
+    "zones": {
+      "typography_zone": "Scattered dramatically around or overlapping the subject, acting as a chaotic, unaligned framing mechanism",
+      "focal_zone": "Dead center, dominated by a single large grayscale photographic cutout",
+      "negative_space": "The royal blue background, which is heavily invaded by doodles and torn paper corners"
+    },
+    "depth_logic": "Literal physical paper stacking. Base painted blue canvas -> torn white paper scraps -> grayscale photo cutout -> top layer marker doodles.",
+    "scale_contrast": "Bold and aggressive scale. Both the main subject and the cutout letters are oversized and in-your-face.",
+    "edge_treatment": "Extremely rough, jagged white torn-paper edges around ALL photos and individual text letters.",
+    "permissions": [
+      "mismatching fonts for every single letter in a word",
+      "drawing marker lines directly over photographic cutouts and text",
+      "irregular, crooked baselines for text"
+    ]
+  },
+  
+  "typography": {
+    "presence": "dominant_magazine_cutout",
+    "letterform_character": "Chaotic, mismatched, cut-and-paste, DIY punk scrapbook",
+    "hierarchy": [
+      {
+        "role": "headline",
+        "style": "A chaotic mix of serif, sans-serif, and bold fonts. Every individual letter uses a completely different typeface.",
+        "treatment": "Each letter is a separate physical magazine cutout with rough torn-paper edges, OR a flat painted letter.",
+        "position": "Floating independently, creating irregular bouncing baselines.",
+        "color_rule": "Mix of grayscale newsprint background and solid neon_safety_orange"
+      }
+    ],
+    "readability_rule": "Words must be legible, but the alignment, sizing, and fonts of individual letters must look physically cut-and-pasted by hand.",
+    "text_constraints": [
+      "strictly NO cohesive, cleanly typed digital fonts for the main headline",
+      "must look like physical paper clippings gathered from different vintage magazines"
+    ]
+  },
+  
+  "color_palette": {
+    "royal_cobalt_blue": "#1B36D1",
+    "neon_safety_orange": "#FF6B1A",
+    "grayscale_ink": "#2B2B2B",
+    "torn_paper_white": "#F4F4F0"
+  },
+  
+  "color_constraints": {
+    "dominant": "royal_cobalt_blue must dominate the background entirely (min 60% area).",
+    "accent_roles": "neon_safety_orange is strictly reserved for hand-drawn marker doodles and occasional solid-color text letters.",
+    "special_rules": "ALL photographic subjects MUST be completely grayscale/black-and-white. Zero color is allowed inside the photos.",
+    "forbidden": [
+      "full color photography",
+      "gradients or soft pastels",
+      "any background color other than royal blue"
+    ]
+  },
+  
+  "visual_direction": {
+    "lighting": "Flat scanner lighting. No realistic global shadows.",
+    "mood": "Energetic, youthful, rebellious, wanderlust, DIY punk.",
+    "material_textures": "Painted rough canvas background, glossy magazine paper cutouts, dry marker ink strokes.",
+    "print_finish": "DIY punk zine / xerox collage",
+    "surface_quality": "Matte paper with visible paper grain and marker bleed."
+  },
+  
+  "graphic_elements": {
+    "marker_doodles": {
+      "physical": "Bright orange and dark ink hand-drawn strokes (squiggles, arrows, X marks, globes, speed lines)",
+      "placement": "Scattered energetically in the blue background, often crossing over the white paper edges",
+      "allowed": ["interacting with the photographic subject"],
+      "forbidden": ["perfect digital vector curves (must look hand-drawn)"],
+      "count": "5-8 clusters"
+    },
+    "torn_corner_accents": {
+      "physical": "Blank white textured paper scraps with jagged torn edges",
+      "placement": "Intruding from the extreme corners of the square canvas",
+      "allowed": ["framing the image"],
+      "count": "2-4"
+    }
+  },
+  
+  "constraints": {
+    "do": [
+      "Force all photos to be strictly black and white to contrast with the neon orange and blue",
+      "Ensure every letter in the headline looks like it was cut from a different magazine"
+    ],
+    "avoid": [
+      "realistic cohesive typography (kills the DIY zine vibe)",
+      "colored photography (destroys the 3-color palette logic)",
+      "3D lighting or depth",
+      "smooth vector gradients"
+    ]
+  }
+}

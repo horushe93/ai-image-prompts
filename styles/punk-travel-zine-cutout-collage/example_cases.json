@@ -1,0 +1,36 @@
+{
+  "example_cases_1_1": [
+    {
+      "case_name": "Urban Exploration (城市快照)",
+      "environment_variables": {
+        "MAIN_SUBJECT": "A grayscale vintage twin-lens reflex (TLR) film camera",
+        "HEADLINE_TEXT": "CAPTURE THIS",
+        "DOODLE_THEME": "Flash sparks, targeting crosshairs, and curved directional arrows"
+      }
+    },
+    {
+      "case_name": "Desert Road Trip (沙漠公路游)",
+      "environment_variables": {
+        "MAIN_SUBJECT": "A grayscale classic 1970s muscle car viewed from a low angle",
+        "HEADLINE_TEXT": "WILD RIDE",
+        "DOODLE_THEME": "Messy tire tracks, wavy route lines, and rough X marks"
+      }
+    },
+    {
+      "case_name": "Retro Audio/Music (复古地下电音)",
+      "environment_variables": {
+        "MAIN_SUBJECT": "A grayscale heavy 1980s retro boombox cassette player",
+        "HEADLINE_TEXT": "PLAY LOUD",
+        "DOODLE_THEME": "Lightning bolts, chaotic sound waves, and bursting stars"
+      }
+    },
+    {
+      "case_name": "Space Adventure (硬核太空冒险)",
+      "environment_variables": {
+        "MAIN_SUBJECT": "A grayscale vintage Apollo-era astronaut helmet",
+        "HEADLINE_TEXT": "BLAST OFF",
+        "DOODLE_THEME": "Hand-drawn orbit rings, shooting stars, and bold pointing arrows"
+      }
+    }
+  ]
+}

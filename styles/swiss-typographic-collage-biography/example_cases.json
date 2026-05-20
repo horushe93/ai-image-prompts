@@ -1,0 +1,13 @@
+{
+  "example_cases_3_2": [
+    {
+      "case_name": "Andrej Karpathy: AI Pioneer Biography",
+      "environment_variables": {
+        "SUBJECT_NAME": "ANDREJ KARPATHY",
+        "SUBJECT_PORTRAIT": "A thoughtful portrait of Andrej Karpathy wearing casual tech attire",
+        "ACCENT_COLOR_NAME": "Anthropic Peach",
+        "TIMELINE_DATA": "2005-2009: B.Sc. CS & Physics, UofT\n2009-2011: M.Sc. CS, UBC\n2011-2015: Ph.D. CS, Stanford\n2013: Research Intern, Google\n2015: Research Intern, DeepMind\n2015-2017: Founding Member, OpenAI\n2017-2022: Director of AI, Tesla\n2023-2024: Research Scientist, OpenAI\n2024-2026: Founder, Eureka Labs\n2026-Present: Pre-training Team, Anthropic"
+      }
+    }
+  ]
+}
