@@ -1,0 +1,44 @@
+{
+  "example_cases_9_16": [
+    {
+      "environment_variables": {
+        "HEADER_TITLE": "2026 Google I/O SUMMIT",
+        "HEADER_VISUAL": "A classical marble head horizontally sliced, revealing an intricate brutalist concrete maze inside, acting as a surreal metaphor for deep neural networks.",
+        "ALL_CONFERENCE_DATA": {
+          "LEFT_COLUMN": [
+            {
+              "theme": "AI 模型",
+              "points": "- Gemini 3.5 Flash 成为默认模型。\n- 支持 100 万 Token 上下文。\n- 发布全能多模态模型 Gemini Omni Flash。"
+            },
+            {
+              "theme": "Gemini 产品",
+              "points": "- Gemini App 采用全新设计语言。\n- 地图与 YouTube 升级对话式搜索。\n- Docs Live 支持纯语音边说边写。"
+            },
+            {
+              "theme": "Agent 系统",
+              "points": "- Antigravity 2.0 升级为独立桌面应用。\n- 发布云端管家 Gemini Spark。\n- 安卓新增 Agent 专属状态栏 Halo。"
+            },
+            {
+              "theme": "视觉生成",
+              "points": "- 推出图像工具 Pics 与语音工具 Stitch。\n- Flow 工作室支持视频多机位生成。\n- 加入 SynthID 水印联盟。"
+            }
+          ],
+          "RIGHT_COLUMN": [
+            {
+              "theme": "搜索 AI Mode",
+              "points": "- 搜索框支持多文件跨模态输入。\n- 加入 Search Agents 追踪监控。\n- 引入 Agentic Coding 渲染页面。"
+            },
+            {
+              "theme": "Agent 电商",
+              "points": "- 联合共建 UCP 协议，确立电商规则。\n- 推出 AP2 支付协议，设定授权护栏。\n- 上线跨平台万能购物车 Universal Cart。"
+            },
+            {
+              "theme": "其他更新",
+              "points": "- 发售 Android XR 音频智能眼镜。\n- 第八代 TPU 推理速度大幅提升。\n- AI 深入科学前沿推出辅助工具。"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

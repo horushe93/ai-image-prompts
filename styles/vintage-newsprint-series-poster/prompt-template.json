@@ -1,0 +1,67 @@
+{
+  "style_name": "Vintage broadsheet Swiss grid conference poster",
+  "style_summary": "A highly dense 9:16 vertical poster acting as a vintage newspaper front page. It utilizes a strict multi-column Swiss grid to organize massive amounts of data. The top 20% features a constrained surrealist collage header and massive title. The bottom 80% is a rigorous 2-column typographic grid filled with micro-typography. The aesthetic relies on distressed hot-metal typesetting, visible ink bleed, and structured dividing lines to keep the heavy data legible and visually striking.",
+  
+  "environment_variables": {
+    "HEADER_TITLE": "The main event title (e.g., '2026 AI TECH SUMMIT').",
+    "HEADER_VISUAL": "A wide, horizontally constrained surrealist collage metaphor to set the tone.",
+    "ALL_CONFERENCE_DATA": "The massive text payload containing all 7 themes and their bullet points, to be distributed across columns."
+  },
+  
+  "composition": {
+    "layout_type": "2-Column newspaper broadsheet Swiss grid (9:16)",
+    "global_margins": "Mandatory 8% empty padding on all four edges.",
+    "spatial_anchors": {
+      "header_zone": "Top 0% to 25%. Contains the HEADER_TITLE and HEADER_VISUAL. Separated from the text by a heavy horizontal line.",
+      "data_grid_zone": "Top 25% to 100%. Divided strictly into TWO vertical columns (Left Column and Right Column), separated by a 0.5pt vertical dividing line in the exact center."
+    },
+    "depth_logic": "Literal flat analog newspaper printing. Everything is pressed into the paper."
+  },
+  
+  "typography": {
+    "presence": "dense_micro_typography",
+    "letterform_character": "Authentic 1960s vintage newspaper print, old mechanical hot-metal typesetting Chinese font, heavy ink bleed",
+    "hierarchy": [
+      {
+        "role": "header_title",
+        "style": "Massive, ultra-bold, condensed vintage sans-serif",
+        "alignment": "Flush-left or perfectly justified across the top"
+      },
+      {
+        "role": "theme_title",
+        "style": "Medium size, heavy weight Chinese Heiti, acting as subheadings inside the columns",
+        "treatment": "Highlighted with a subtle background block in vintage orange or simply heavily inked",
+        "alignment": "Flush-left inside its respective column"
+      },
+      {
+        "role": "bullet_points",
+        "style": "Small scale (micro-typography), regular weight Chinese Mingti",
+        "treatment": "Strict flush-left, ragged-right, tightly kerned but with clear leading (line spacing)",
+        "alignment": "Constrained strictly within the left or right column bounds"
+      }
+    ],
+    "text_constraints": [
+      "CRITICAL: Text MUST wrap within its designated column and never cross the center dividing line",
+      "Maintain a clear visual hierarchy between Theme Titles and Bullet Points"
+    ]
+  },
+  
+  "color_palette": {
+    "newspaper_parchment": "#EFEAE0",
+    "faded_charcoal_ink": "#333333",
+    "vintage_persimmon_orange": "#D95C30",
+    "olive_green": "#6B705C"
+  },
+  
+  "graphic_elements": {
+    "grid_dividers": {
+      "physical": "0.5pt faded charcoal lines",
+      "placement": "One primary VERTICAL line slicing the bottom 75% in half. Multiple HORIZONTAL lines separating themes.",
+      "count": "1 vertical, multiple horizontal"
+    },
+    "header_collage": {
+      "physical": "A surreal classical/brutalist collage element",
+      "placement": "Confined to the top header zone, sitting behind or next to the main title"
+    }
+  }
+}
