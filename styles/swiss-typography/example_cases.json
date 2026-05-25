@@ -1,44 +1,44 @@
 {
   "example_cases_2_3": [
     {
-      "theme_description": "【前世今生】经典印刷与数字纪元的交汇 (The Evolution of Swiss Design)",
-      "design_intent": "用半调印刷网点与现代数字线框的过渡，视觉化地呈现瑞士风格从传统海报走向 UI 界面的历史进程。",
+      "theme_description": "【主体一：北欧风椅子】工业设计与网格的结合 (Nordic Chair)",
+      "design_intent": "捕捉北欧曲木椅的有机曲线，将其作为纯粹的几何形体，与冷酷、笔直的瑞士无衬线字体产生强烈的形态对比。",
       "environment_variables": {
-        "FOCAL_IMAGE": "a visual metaphor of evolution: classic vintage printed halftone dots seamlessly transitioning into sharp modern digital wireframe vectors, overlapping geometric squares (视觉进化的隐喻：复古印刷半调网点平滑过渡到锐利的现代数字线框，交错的几何正方形)",
-        "HERO_HEADLINE": "zeitgeist",
+        "FOCAL_IMAGE": "high-contrast black and white objective photography of a minimalist Nordic bentwood chair, dramatic side profile, sharp focus, stark studio lighting, isolated on stark background (极简北欧曲木椅的高反差黑白客观摄影，极具戏剧性的侧面轮廓，锐利对焦，冷酷的影棚打光，从背景中孤立)",
+        "HERO_HEADLINE": "HOLZ",
         "ACCENT_COLOR_THEME": "swiss signal red (瑞士信号红)"
       },
-      "compiled_prompt": "A visual metaphor of evolution: classic vintage printed halftone dots seamlessly transitioning into sharp modern digital wireframe vectors, overlapping geometric squares. In the style of minimalist grid swiss typography poster. 'zeitgeist' massive neo-grotesque sans-serif headline, tight tracking, flush left typography. Strict mathematical grid layout. Palette: asphalt black, paper white, and a single solid accent of swiss signal red. Massive negative space, asymmetrical layout. --no center alignment, decorative fonts, painterly brushstrokes, drop shadows, symmetrical layouts --ar 2:3"
+      "compiled_prompt": "High-contrast black and white objective photography of a minimalist Nordic bentwood chair, dramatic side profile, sharp focus, stark studio lighting, isolated on stark background. In the style of minimalist grid swiss typography poster. 'HOLZ' massive neo-grotesque sans-serif headline. Flush left typography contrasting with organic curves of the chair. Strict mathematical grid layout. Palette: high contrast monochrome, asphalt black, paper white, and a tiny typographic accent of swiss signal red. Massive negative space, asymmetrical layout. --no illustration, room interior, cozy, center alignment, decorative fonts, gradients, drop shadows --ar 2:3"
     },
     {
-      "theme_description": "【第一阶段：1950s】纯粹数学几何与网格的绝对统治 (The Classic Geometric Era)",
-      "design_intent": "致敬 Josef Müller-Brockmann。放弃一切具象摄影，用绝对理性的数学比例、极端的留白和冷酷的纯色块来构建画面。",
+      "theme_description": "【主体二：古典雕塑】古典艺术的现代解构 (Classical Bust Sculpture)",
+      "design_intent": "美术馆展览海报最爱的手法。用极端的微距和无情的边缘裁切来破坏石膏雕塑的完整性，打破古典的对称美，注入现代主义的理性。",
       "environment_variables": {
-        "FOCAL_IMAGE": "perfectly intersecting solid geometric circles and sharp diagonal lines on a flat plane, devoid of emotional illustration, extreme mathematical precision (平面上完美相交的实心几何圆与锐利对角线，没有任何情感化插画，极端的数学精确度)",
-        "HERO_HEADLINE": "modular",
+        "FOCAL_IMAGE": "extreme macro objective photography of a classical white plaster bust sculpture, isolated on solid white paper background, dramatic cropping cutting halfway through the face (古典白色石膏半身像的极端微距客观摄影，孤立在纯白纸张背景上，在面部中间进行戏剧性裁切)",
+        "HERO_HEADLINE": "Klassik",
         "ACCENT_COLOR_THEME": "cobalt blue (钴蓝色)"
       },
-      "compiled_prompt": "Perfectly intersecting solid geometric circles and sharp diagonal lines on a flat plane, devoid of emotional illustration, extreme mathematical precision. In the style of vintage classic swiss international poster. 'modular' massive neo-grotesque sans-serif headline, tight tracking, flush left typography. Strict mathematical grid layout. Palette: asphalt black, matte paper white, and a single solid accent of cobalt blue. Massive negative space, asymmetrical layout, elements cropped sharply at grid lines. --no photography, center alignment, decorative fonts, painterly, 3d render, gradients, drop shadows --ar 2:3"
+      "compiled_prompt": "Extreme macro objective photography of a classical white plaster bust sculpture, isolated on solid white paper background, dramatic cropping cutting halfway through the face. In the style of minimalist grid swiss typography poster. 'Klassik' massive neo-grotesque sans-serif headline. Flush left typography slicing through the image. Strict mathematical grid layout. Palette: high contrast monochrome, asphalt black, paper white, and a single solid accent of cobalt blue. Massive negative space, asymmetrical layout. --no black background, dark studio, full body, classical painting, museum background, center alignment, symmetrical, decorative serif fonts, 3d render --ar 2:3"
     },
     {
-      "theme_description": "【第二阶段：1960s-1980s】客观摄影与字体的物理张力 (Objective Photography Tension)",
-      "design_intent": "致敬 Armin Hofmann。利用高对比度、去情感化的客观摄影，与冷峻的无衬线排版在边缘产生几何级别的“咬合”与碰撞。",
+      "theme_description": "【主体三：极简吊灯】仰视视角下的同心圆几何 (Minimalist Pendant Lamp)",
+      "design_intent": "利用仰拍视角，将立体的工业吊灯拍成平面的“同心圆”几何图形，完美契合瑞士风格对纯粹几何的偏执。",
       "environment_variables": {
-        "FOCAL_IMAGE": "high-contrast black and white objective macro photography of a brutalist concrete staircase, sharp focus, dramatic cropping at the canvas edge (极简粗野主义混凝土楼梯的高反差黑白客观微距摄影，锐利对焦，在画布边缘进行戏剧性裁切)",
-        "HERO_HEADLINE": "Struktur",
-        "ACCENT_COLOR_THEME": "safety orange (安全橘色)"
+        "FOCAL_IMAGE": "low angle objective photography looking directly up at a minimalist metallic Bauhaus pendant lamp, concentric circles in perspective, isolated on solid white paper background (极低视角直接仰拍极简金属包豪斯吊灯，透视中的同心圆，孤立在纯白纸张背景上)",
+        "HERO_HEADLINE": "LUMEN",
+        "ACCENT_COLOR_THEME": "bright pure yellow (明亮的纯黄色)"
       },
-      "compiled_prompt": "High-contrast black and white objective macro photography of a brutalist concrete staircase, sharp focus, dramatic cropping at the canvas edge. In the style of minimalist grid swiss typography poster. 'Struktur' massive neo-grotesque sans-serif headline. Flush left typography contrasting with objective photography. Strict mathematical grid layout. Palette: high contrast monochrome, asphalt black, paper white, and a tiny typographic accent of safety orange. Massive negative space, asymmetrical layout. --no illustration, center alignment, symmetrical, decorative fonts, painterly, gradients, drop shadows --ar 2:3"
+      "compiled_prompt": "Low angle objective photography looking directly up at a minimalist metallic Bauhaus pendant lamp, concentric circles in perspective, isolated on solid white paper background. In the style of minimalist grid swiss typography poster. 'LUMEN' massive neo-grotesque sans-serif headline. Flush left typography. Strict mathematical grid layout anchoring the circular lamp. Palette: high contrast monochrome, asphalt black, paper white, and a tiny typographic accent of bright pure yellow. Massive negative space, asymmetrical layout. --no black background, dark studio, glowing effects, room interior, center alignment, symmetrical, decorative fonts, gradients, drop shadows --ar 2:3"
     },
     {
-      "theme_description": "【第三阶段：今天】打破网格的当代“瑞士朋克” (Modern Post-Swiss / Digital Punk)",
-      "design_intent": "代表当代设计（如先锋科技峰会/Web3）。继承了网格系统和左对齐排版，但允许现代 3D 材质和高饱和色彩对“网格”进行蓄意破坏。",
+      "theme_description": "【主体四：枯树木】自然物体的建筑感 (Structural Winter Tree)",
+      "design_intent": "将自然植物“去自然化”。不要绿意盎然的树木，而是像血管、像建筑裂痕一样的枯枝剪影，与直线排版形成一种近乎残酷的美感。",
       "environment_variables": {
-        "FOCAL_IMAGE": "a distorted, chrome 3D geometric typography shape tearing through a strict 2D typographical grid, kinetic visual tension, clean high-end glitch aesthetic (一个扭曲的镀铬3D几何图形撕裂了严密的2D排版网格，动态视觉张力，干净高端的故障美学)",
-        "HERO_HEADLINE": "OVERRIDE",
+        "FOCAL_IMAGE": "high-contrast black and white objective photography of a single bare winter tree branch silhouette reaching across the canvas like a fracture, structural and stark, architectural nature (一根光秃秃的冬季树枝剪影的高反差黑白客观摄影，像裂痕一样横穿画布，具有结构感和冷酷感，建筑般的自然)",
+        "HERO_HEADLINE": "NATUR",
         "ACCENT_COLOR_THEME": "fluorescent venom green (荧光毒液绿)"
       },
-      "compiled_prompt": "A distorted, chrome 3D geometric typography shape tearing through a strict 2D typographical grid, kinetic visual tension, clean high-end glitch aesthetic. In the style of modern post-swiss graphic poster. 'OVERRIDE' massive neo-grotesque sans-serif headline, flush left typography. Base layout follows strict mathematical grid but the focal element breaks it. Palette: asphalt black, matte paper white, and high-energy fluorescent venom green. Extreme scale contrast, asymmetrical layout. --no classic centered UI, decorative serif fonts, painterly brushstrokes, soft pastels, organic shapes --ar 2:3"
+      "compiled_prompt": "High-contrast black and white objective photography of a single bare winter tree branch silhouette reaching across the canvas like a fracture, structural and stark, architectural nature. In the style of modern post-swiss graphic poster. 'NATUR' massive neo-grotesque sans-serif headline. Flush left typography intersecting with organic branches. Strict mathematical grid layout. Palette: high contrast monochrome, asphalt black, paper white, and high-energy fluorescent venom green. Massive negative space, asymmetrical layout. --no leaves, lush forest, landscape, center alignment, soft pastels, decorative fonts, drop shadows --ar 2:3"
     }
   ]
 }
