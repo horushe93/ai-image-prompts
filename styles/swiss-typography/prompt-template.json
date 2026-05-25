@@ -1,0 +1,90 @@
+{
+  "style_name": "minimalist grid swiss typography",
+  "style_summary": "Classic Swiss International design translated for modern digital poster formats. Built on strict mathematical grids, extreme negative space, and objective photography or bold geometry. The visual vocabulary relies entirely on high-contrast neo-grotesque sans-serif typography and unembellished imagery. The aesthetic positioning is hyper-rational, universally legible, cold, architectural, and highly intellectual.",
+  
+  "environment_variables": {
+    "FOCAL_IMAGE": "objective visual element. Must be devoid of emotional illustration. e.g., 'a high-contrast black and white macro photograph of brutalist concrete architecture' or 'a single perfect red geometric sphere'",
+    "HERO_HEADLINE": "2-3 short, impactful words, lowercase or uppercase, e.g., 'Form', 'Grid System', 'Objektiv'",
+    "ACCENT_COLOR_THEME": "one single high-impact accent color against monochrome. e.g., 'signal red', 'cobalt blue', 'bright yellow'"
+  },
+  
+  "composition": {
+    "layout_type": "strict mathematical grid modular layout",
+    "zones": {
+      "typography_zone": "locked to the top-left or bottom-left grid modules, never center-aligned, distinct separation from imagery",
+      "focal_zone": "occupies exact mathematical fractions of the canvas (e.g., exactly lower right quadrant)",
+      "negative_space": "intentional void, massive negative space acting as a structural element, 50-70% empty canvas"
+    },
+    "depth_logic": "strictly 2D flat, absolutely no volumetric drop shadows, depth is achieved solely through scale contrast between massive headlines and micro body copy",
+    "scale_contrast": "extreme macro vs micro. massive headline text contrasting with tiny, dense blocks of alignment-perfect body copy",
+    "edge_treatment": "flush and cropped, elements often touch the exact edge of the canvas",
+    "permissions": ["crop images sharply at grid lines", "text can run off the edge of the canvas"]
+  },
+  
+  "typography": {
+    "presence": "poster",
+    "letterform_character": "neutral, stark, geometric, highly legible, neo-grotesque",
+    "hierarchy": [
+      {
+        "role": "headline",
+        "style": "Helvetica bold or similar sans-serif, massive scale",
+        "treatment": "tight tracking, heavy weight, flush left",
+        "position": "anchored to a major grid line",
+        "color_rule": "asphalt black or paper white"
+      },
+      {
+        "role": "body",
+        "style": "sans-serif, regular weight, 10pt equivalent",
+        "treatment": "flush left, ragged right, dense block",
+        "position": "secondary grid modules",
+        "color_rule": "asphalt black"
+      }
+    ],
+    "readability_rule": "absolute clarity is mandatory, letters must not be distorted",
+    "text_constraints": ["no decorative fonts", "no center alignment", "no justified text (must be ragged right)"]
+  },
+  
+  "color_palette": {
+    "paper_white": "#F5F5F0 — matte art gallery paper ground",
+    "asphalt_black": "#1A1A1A — rich, dense ink black for primary typography",
+    "swiss_signal_red": "#E32636 — pure, aggressive emergency red",
+    "industrial_grey": "#808080 — neutral concrete grey for secondary elements"
+  },
+  
+  "color_constraints": {
+    "dominant": "paper_white and asphalt_black must constitute 85% of the visual area",
+    "accent_roles": "swiss_signal_red appears strictly on ONE focal geometric shape or ONE key word",
+    "special_rules": "colors must be solid and flat, no gradients unless within the objective photograph",
+    "forbidden": ["gradients in background (destroys flatness)", "pastels (lacks authority)", "neon/cyberpunk glow (destroys print provenance)"]
+  },
+  
+  "visual_direction": {
+    "lighting": "flat, uniform studio lighting for objects; high-contrast harsh lighting if using architectural photography",
+    "mood": "rational, objective, authoritative, silent, organized (is NOT playful, emotional, or chaotic)",
+    "material_textures": "matte offset printing on uncoated thick paper stock",
+    "print_finish": "printed-and-scanned",
+    "surface_quality": "matte"
+  },
+  
+  "graphic_elements": {
+    "grid_lines": {
+      "physical": "hairline thin, industrial_grey or asphalt_black",
+      "placement": "intersecting to form modular blocks",
+      "allowed": ["extending infinitely off canvas"],
+      "forbidden": ["curved lines", "decorative flourishes"],
+      "count": "2-4 visible intersection lines"
+    },
+    "geometric_shapes": {
+      "physical": "perfect circles, squares, or arrows, solid color fill",
+      "placement": "anchored exactly to grid intersections",
+      "allowed": ["cropping at canvas edge"],
+      "forbidden": ["soft edges", "3D bevels"],
+      "count": "1-2"
+    }
+  },
+  
+  "constraints": {
+    "do": ["enforce extreme flush-left alignment for all text", "maintain mathematical proportions"],
+    "avoid": ["centered typography (model default bias)", "drop shadows (model associates with UI but breaks vintage Swiss print)", "painterly brushstrokes (model associates with 'art')", "symmetrical layouts (must be asymmetrical)"]
+  }
+}

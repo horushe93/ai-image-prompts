@@ -1,0 +1,44 @@
+{
+  "example_cases_2_3": [
+    {
+      "theme_description": "【前世今生】经典印刷与数字纪元的交汇 (The Evolution of Swiss Design)",
+      "design_intent": "用半调印刷网点与现代数字线框的过渡，视觉化地呈现瑞士风格从传统海报走向 UI 界面的历史进程。",
+      "environment_variables": {
+        "FOCAL_IMAGE": "a visual metaphor of evolution: classic vintage printed halftone dots seamlessly transitioning into sharp modern digital wireframe vectors, overlapping geometric squares (视觉进化的隐喻：复古印刷半调网点平滑过渡到锐利的现代数字线框，交错的几何正方形)",
+        "HERO_HEADLINE": "zeitgeist",
+        "ACCENT_COLOR_THEME": "swiss signal red (瑞士信号红)"
+      },
+      "compiled_prompt": "A visual metaphor of evolution: classic vintage printed halftone dots seamlessly transitioning into sharp modern digital wireframe vectors, overlapping geometric squares. In the style of minimalist grid swiss typography poster. 'zeitgeist' massive neo-grotesque sans-serif headline, tight tracking, flush left typography. Strict mathematical grid layout. Palette: asphalt black, paper white, and a single solid accent of swiss signal red. Massive negative space, asymmetrical layout. --no center alignment, decorative fonts, painterly brushstrokes, drop shadows, symmetrical layouts --ar 2:3"
+    },
+    {
+      "theme_description": "【第一阶段：1950s】纯粹数学几何与网格的绝对统治 (The Classic Geometric Era)",
+      "design_intent": "致敬 Josef Müller-Brockmann。放弃一切具象摄影，用绝对理性的数学比例、极端的留白和冷酷的纯色块来构建画面。",
+      "environment_variables": {
+        "FOCAL_IMAGE": "perfectly intersecting solid geometric circles and sharp diagonal lines on a flat plane, devoid of emotional illustration, extreme mathematical precision (平面上完美相交的实心几何圆与锐利对角线，没有任何情感化插画，极端的数学精确度)",
+        "HERO_HEADLINE": "modular",
+        "ACCENT_COLOR_THEME": "cobalt blue (钴蓝色)"
+      },
+      "compiled_prompt": "Perfectly intersecting solid geometric circles and sharp diagonal lines on a flat plane, devoid of emotional illustration, extreme mathematical precision. In the style of vintage classic swiss international poster. 'modular' massive neo-grotesque sans-serif headline, tight tracking, flush left typography. Strict mathematical grid layout. Palette: asphalt black, matte paper white, and a single solid accent of cobalt blue. Massive negative space, asymmetrical layout, elements cropped sharply at grid lines. --no photography, center alignment, decorative fonts, painterly, 3d render, gradients, drop shadows --ar 2:3"
+    },
+    {
+      "theme_description": "【第二阶段：1960s-1980s】客观摄影与字体的物理张力 (Objective Photography Tension)",
+      "design_intent": "致敬 Armin Hofmann。利用高对比度、去情感化的客观摄影，与冷峻的无衬线排版在边缘产生几何级别的“咬合”与碰撞。",
+      "environment_variables": {
+        "FOCAL_IMAGE": "high-contrast black and white objective macro photography of a brutalist concrete staircase, sharp focus, dramatic cropping at the canvas edge (极简粗野主义混凝土楼梯的高反差黑白客观微距摄影，锐利对焦，在画布边缘进行戏剧性裁切)",
+        "HERO_HEADLINE": "Struktur",
+        "ACCENT_COLOR_THEME": "safety orange (安全橘色)"
+      },
+      "compiled_prompt": "High-contrast black and white objective macro photography of a brutalist concrete staircase, sharp focus, dramatic cropping at the canvas edge. In the style of minimalist grid swiss typography poster. 'Struktur' massive neo-grotesque sans-serif headline. Flush left typography contrasting with objective photography. Strict mathematical grid layout. Palette: high contrast monochrome, asphalt black, paper white, and a tiny typographic accent of safety orange. Massive negative space, asymmetrical layout. --no illustration, center alignment, symmetrical, decorative fonts, painterly, gradients, drop shadows --ar 2:3"
+    },
+    {
+      "theme_description": "【第三阶段：今天】打破网格的当代“瑞士朋克” (Modern Post-Swiss / Digital Punk)",
+      "design_intent": "代表当代设计（如先锋科技峰会/Web3）。继承了网格系统和左对齐排版，但允许现代 3D 材质和高饱和色彩对“网格”进行蓄意破坏。",
+      "environment_variables": {
+        "FOCAL_IMAGE": "a distorted, chrome 3D geometric typography shape tearing through a strict 2D typographical grid, kinetic visual tension, clean high-end glitch aesthetic (一个扭曲的镀铬3D几何图形撕裂了严密的2D排版网格，动态视觉张力，干净高端的故障美学)",
+        "HERO_HEADLINE": "OVERRIDE",
+        "ACCENT_COLOR_THEME": "fluorescent venom green (荧光毒液绿)"
+      },
+      "compiled_prompt": "A distorted, chrome 3D geometric typography shape tearing through a strict 2D typographical grid, kinetic visual tension, clean high-end glitch aesthetic. In the style of modern post-swiss graphic poster. 'OVERRIDE' massive neo-grotesque sans-serif headline, flush left typography. Base layout follows strict mathematical grid but the focal element breaks it. Palette: asphalt black, matte paper white, and high-energy fluorescent venom green. Extreme scale contrast, asymmetrical layout. --no classic centered UI, decorative serif fonts, painterly brushstrokes, soft pastels, organic shapes --ar 2:3"
+    }
+  ]
+}

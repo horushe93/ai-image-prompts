@@ -1,0 +1,103 @@
+{
+  "style_name": "Cloisonné Enamel Souvenir Magnet Photography",
+  "style_summary": "Physical souvenir fridge magnet photography combining cloisonné metal wireframe techniques with translucent enamel-glass textures. The visual core compactly integrates a stylized character, a landmark background, and 2-3 specialty cultural symbols. The outer contour is heavily defined by a thick metal die-cut edge that perfectly traces the skyline of the architectural silhouette. The color language utilizes high-saturation, glass-reflective jewel tones physically separated by raised, reflective brass/gold lines, presenting a highly tactile, premium collectible product.",
+  
+  "environment_variables": {
+    "LOCATION_NAME": "City or location name. Must be short (1-2 words), e.g., 'TOKYO' or 'PARIS'. This text will be physically cast onto a raised metal ribbon/banner at the bottom of the design.",
+    "LANDMARK_BUILDING": "The core landmark. Description must include top-edge architectural features, e.g., 'a classical pagoda with multiple tiered eaves'. The AI will use this to generate the irregular top die-cut metal silhouette.",
+    "SPECIALTY_ITEMS": "2 to 3 local specialties or cultural symbols. Must be concrete physical objects, e.g., 'a pretzel and a beer stein'. These serve as foreground embellishments clustered tightly around the character.",
+    "CHARACTER_SUBJECT": "Core character subject (described via text or image prompt). Specify outfit, features, and pose. Note: Whether using text or an image prompt, the character must be forcefully stylized into the 'flat color block + metal wire' enamel pin aesthetic. Photorealistic facial features are strictly prohibited."
+  },
+
+  "composition": {
+    "layout_type": "Badge-style compact emblem",
+    "zones": {
+      "typography_zone": "Bottom center, typically an extruded metal banner or ribbon holding raised 3D metal lettering.",
+      "focal_zone": "Occupies 70% of the canvas. Foreground: character; Midground: specialty items; Background: landmark building. All tightly overlapping.",
+      "negative_space": "Zero negative space. All areas must be physically filled with metal framework or poured enamel pools. No empty atmospheric voids."
+    },
+    "depth_logic": "Bas-relief physical layering. Depth is derived exclusively from the physical thickness of the metal borders, the raised wireframes, and the convex meniscus of the glossy enamel. Atmospheric perspective is strictly prohibited.",
+    "scale_contrast": "Exaggerated souvenir proportions. Specialty items and characters are upscaled, while massive landmark buildings are miniaturized to fit the badge mold.",
+    "edge_treatment": "Custom thick die-cut metal border. The top outer edge must precisely trace and hug the architectural silhouette of the background landmark.",
+    "permissions": [
+      "Authorized to aggressively simplify architectural details into geometric shapes enclosed by metal lines",
+      "Authorized to flatten character faces and clothing folds into unshaded pure color blocks",
+      "Authorized to shatter realistic scale proportions to fit a flat badge mold"
+    ]
+  },
+
+  "typography": {
+    "presence": "minimal",
+    "letterform_character": "Bold, industrial, possessing physical thickness and metallic weight",
+    "hierarchy": [
+      {
+        "role": "headline",
+        "style": "Heavy vintage sans-serif or slab serif, large scale",
+        "treatment": "3D extruded metal cast, same material as the outer border, no printed ink",
+        "position": "Inside the bottom metal banner",
+        "color_rule": "Polished Brass Gold"
+      }
+    ],
+    "readability_rule": "Highly legible, allowing for slight bright specular metallic reflections on the letter edges",
+    "text_constraints": [
+      "Strictly no hallucinatory alien text",
+      "Strictly no handwritten brush strokes or flat printed ink textures"
+    ]
+  },
+
+  "color_palette": {
+    "Polished_Brass_Gold": "#D4AF37 — Highly reflective polished brass used for all dividing wires, borders, and text",
+    "Ruby_Glaze": "#9B111E — Translucent liquid-like ruby red enamel glass",
+    "Sapphire_Enamel": "#0F52BA — Deep, highly saturated sapphire blue resin",
+    "Jade_Green": "#00A86B — Luminous and smooth jade green",
+    "Pearl_White": "#F0EAD6 — Milky white poured resin with a subtle sheen"
+  },
+
+  "color_constraints": {
+    "dominant": "Polished Brass Gold acts as the skeletal framework (approx. 20% visual area), with the rest filled by high-saturation jewel tones",
+    "accent_roles": "Character apparel or core specialty items must utilize Ruby Glaze or Sapphire Enamel to draw focal attention",
+    "special_rules": "Every single boundary between two different colors MUST be physically separated by a Polished Brass Gold wire",
+    "forbidden": [
+      "Strictly no color gradients within shapes (color blocks must be pure)",
+      "Strictly no dull, muddy, or low-saturation earth tones",
+      "Strictly no neon or glowing emissive colors"
+    ]
+  },
+
+  "visual_direction": {
+    "lighting": "Studio ring light product photography. Angled frontal lighting creating sharp, bright specular highlights on both the metallic wire edges and the convex glossy enamel surfaces.",
+    "mood": "Premium, highly tactile, collectible physical souvenir (is a tangible manufactured object, is not a digital illustration)",
+    "material_textures": "Raised rigid polished metal combined with smooth, convex, liquid-tension glass/enamel pools",
+    "print_finish": "Macro studio photography of a die-cast metal and injected-resin physical product",
+    "surface_quality": "High Gloss + Metallic Specular Reflection"
+  },
+
+  "graphic_elements": {
+    "metal_cloisonne_wires": {
+      "physical": "Uniform thickness, 3D raised metallic lines with specular highlights",
+      "placement": "Webbed throughout the entire design, outlining every single internal and external shape",
+      "allowed": ["Forming tightly closed loops to hold liquid enamel"],
+      "forbidden": ["Strictly no broken lines, no extreme variation in wire thickness, no sketchy/pencil qualities"],
+      "count": "Countless interconnected web"
+    },
+    "specialty_icons": {
+      "physical": "Highly abstracted flat shapes enclosed in thick metal wire",
+      "placement": "Flanking the central character or resting on the bottom corners of the badge",
+      "allowed": ["Physically overlapping with the character or the outer border"],
+      "forbidden": ["Strictly no painted volumetric shading, no 3D rendering"],
+      "count": "2-3"
+    }
+  },
+
+  "constraints": {
+    "do": [
+      "Maintain the overwhelming optical illusion that this is a heavy, physical object sitting on a table or stuck to a fridge",
+      "Place against a neutral studio backdrop (pure white or light grey) with a solid, physical drop shadow cast by the magnet"
+    ],
+    "avoid": [
+      "Avoid generating flat watercolors, vector illustrations, or 2.5D digital paintings",
+      "If an image prompt is used, strictly avoid pasting a photorealistic face into the artwork; the AI tends to do this, so it must undergo extreme stylistic degradation into flat enamel blocks",
+      "Avoid atmospheric perspective (fading backgrounds); the AI tends to add depth, but everything here exists firmly within the same 5mm physical thickness"
+    ]
+  }
+}

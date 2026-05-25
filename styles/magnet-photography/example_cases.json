@@ -1,0 +1,76 @@
+{
+  "example_cases_3_2": [
+    {
+      "destination": "中国 - 北京 (Beijing, China)",
+      "environment_variables": {
+        "LOCATION_NAME": "BEIJING",
+        "LANDMARK_BUILDING": "The Hall of Supreme Harmony, featuring sweeping golden glazed tile roofs and ornate multi-tiered Chinese palace eaves forming a majestic classical silhouette.",
+        "SPECIALTY_ITEMS": "A stick of shiny red Tanghulu (candied hawthorn) and a highly decorated Peking Opera mask.",
+        "CHARACTER_SUBJECT": "A young girl wearing a traditional red Hanfu dress with twin hair buns, highly stylized into flat enamel color blocks and metal wireframes, strictly no photorealistic facial features."
+      }
+    },
+    {
+      "destination": "中国 - 西安 (Xi'an, China)",
+      "environment_variables": {
+        "LOCATION_NAME": "CHANG'AN",
+        "LANDMARK_BUILDING": "The Giant Wild Goose Pagoda, an ancient multi-tiered Buddhist brick pagoda with a distinct stepped pyramidal top edge.",
+        "SPECIALTY_ITEMS": "A bronze chariot wheel and a bowl of traditional Biangbiang noodles.",
+        "CHARACTER_SUBJECT": "A Terracotta Warrior wearing ancient Chinese armor and holding a halberd, abstracted into simplified flat enamel blocks with metal outlines."
+      }
+    },
+    {
+      "destination": "中国 - 成都 (Chengdu, China)",
+      "environment_variables": {
+        "LOCATION_NAME": "CHENGDU",
+        "LANDMARK_BUILDING": "A traditional Sichuan-style wooden pavilion nestled in bamboo shoots, featuring dramatically upward-curving roof corners.",
+        "SPECIALTY_ITEMS": "A miniature copper Sichuan hotpot and a bamboo cup of green tea.",
+        "CHARACTER_SUBJECT": "A chubby giant panda wearing a colorful Sichuan opera face-changing hat, rendered entirely in glossy enamel sections divided by brass wires."
+      }
+    },
+    {
+      "destination": "中国 - 上海 (Shanghai, China)",
+      "environment_variables": {
+        "LOCATION_NAME": "SHANGHAI",
+        "LANDMARK_BUILDING": "The Oriental Pearl Tower with its distinct twin-sphere silhouette, standing alongside a classic 1920s European-style Bund clock tower.",
+        "SPECIALTY_ITEMS": "A bamboo steamer filled with Xiaolongbao (soup dumplings) and a vintage golden gramophone.",
+        "CHARACTER_SUBJECT": "An elegant lady wearing a classic 1920s floral Qipao (cheongsam), stylized into a retro enamel badge aesthetic with no realistic shading."
+      }
+    },
+    {
+      "destination": "法国 - 巴黎 (Paris, France)",
+      "environment_variables": {
+        "LOCATION_NAME": "PARIS",
+        "LANDMARK_BUILDING": "The Eiffel Tower, a towering iron lattice structure with a pointed pinnacle, serving as the dominant top-edge die-cut silhouette.",
+        "SPECIALTY_ITEMS": "A freshly baked golden croissant and a glass of ruby red wine.",
+        "CHARACTER_SUBJECT": "A classic mime artist wearing a striped shirt and a red beret, holding a baguette, flattened into pure jewel-toned enamel pools."
+      }
+    },
+    {
+      "destination": "日本 - 京都 (Kyoto, Japan)",
+      "environment_variables": {
+        "LOCATION_NAME": "KYOTO",
+        "LANDMARK_BUILDING": "A massive bright red Torii gate layered in front of a traditional wooden pagoda with dark sweeping eaves.",
+        "SPECIALTY_ITEMS": "A piece of delicate green matcha wagashi (confectionery) and an open folding paper fan.",
+        "CHARACTER_SUBJECT": "A graceful geisha wearing an ornate floral kimono with traditional kanzashi hair ornaments, simplified into thick cloisonne metal wires and flat colors."
+      }
+    },
+    {
+      "destination": "美国 - 纽约 (New York, USA)",
+      "environment_variables": {
+        "LOCATION_NAME": "NEW YORK",
+        "LANDMARK_BUILDING": "The Statue of Liberty raising her torch, backed by the jagged, stepped Art Deco silhouette of the Empire State Building.",
+        "SPECIALTY_ITEMS": "A classic NY yellow taxi cab and a slice of pepperoni pizza.",
+        "CHARACTER_SUBJECT": "A modern street hip-hop dancer wearing a sideways cap and an oversized hoodie, strictly rendered in a flat, metallic-bordered enamel pin style."
+      }
+    },
+    {
+      "destination": "英国 - 伦敦 (London, UK)",
+      "environment_variables": {
+        "LOCATION_NAME": "LONDON",
+        "LANDMARK_BUILDING": "Big Ben (the Elizabeth Tower) featuring its ornate gothic clock face and sharp spires creating a dramatic top edge.",
+        "SPECIALTY_ITEMS": "A classic red double-decker bus and an elegant porcelain teapot.",
+        "CHARACTER_SUBJECT": "A British Royal Guard wearing a bright red tunic and a tall black bearskin hat, completely devoid of realistic textures, acting as flat enamel color zones."
+      }
+    }
+  ]
+}
