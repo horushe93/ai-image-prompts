@@ -1,4 +1,4 @@
-# JSON Prompts
+# AI Image Prompts
 
 A curated collection of structured, JSON-based AI image generation prompt templates. Each style defines a reusable visual language — composition rules, color palettes, typography, lighting, and material textures — encoded as a parameterized JSON template with swappable environment variables.
 
@@ -110,4 +110,4 @@ Supported aspect ratios: `1:1`, `3:2`, `2:3`, `4:3`, `9:16`, `16:9`
 
 ## License
 
-MIT © 2026 [horushe](https://github.com/horushe)
+MIT © 2026 [horushe](https://github.com/horushe93)
