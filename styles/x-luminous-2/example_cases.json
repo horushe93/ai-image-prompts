@@ -1,0 +1,108 @@
+{
+  "example_cases_3_2": [
+    {
+      "id": 1,
+      "title": "The Old Tells Are Disappearing",
+      "usage": "Section 'Why Your Eyes Are Not Enough', item 1 (WaterfallFeatures)",
+      "output_path": "public/imgs/ai-video-detector/tells-fading.png",
+      "environment_variables": {
+        "CANVAS_RATIO": "3:2",
+        "SCENE_CONTENT": "A side-by-side concept of outdated manual video-spotting advice losing relevance next to a modern AI video detection interface, rendered softly with no harsh lines.",
+        "UI_COMPONENTS": "Two floating cards. Left: a slightly transparent, desaturated card titled 'Manual Checklist' with three struck-through line items reading exactly 'Count the fingers', 'Check the shadows', 'Look for waxy skin', each paired with a tiny minimalist icon (a hand, a light bulb, a face). Right: a crisp pristine white card titled 'AI Video Detector' with six stacked signal rows whose labels read exactly 'Visual Artifact Analysis', 'Temporal Coherence', 'AI Watermark Scan', 'Content Provenance', 'Facial Authenticity', 'File Forensics', each row with a small icon and a rounded status dot. Render every quoted label verbatim. Do not invent any other metric names. Never use text-analysis terms such as perplexity, burstiness, linguistic naturalness, or writing style. No percentage scores.",
+        "LIME_ACCENT_TARGET": "Only the small round status dots on the right-hand detector card.",
+        "AI_SYMBOL_PLACEMENT": "One borderless electric lime stepped-cross floating in the negative space between the two cards, hinting the shift from manual to AI-assisted checking."
+      }
+    },
+    {
+      "id": 2,
+      "title": "Temporal Variance Gap",
+      "usage": "Section 'Why Your Eyes Are Not Enough', item 2 (WaterfallFeatures)",
+      "output_path": "public/imgs/ai-video-detector/temporal-variance.png",
+      "environment_variables": {
+        "CANVAS_RATIO": "3:2",
+        "SCENE_CONTENT": "A clean, inviting motion-variance line chart comparing real handheld camera footage against AI-generated video, the core data story of the page.",
+        "UI_COMPONENTS": "One large pristine white card containing a soft line chart with a thin dotted grey grid. Two curves: a gently jagged charcoal grey line (handheld camera) and a nearly flat line far below it (AI video). Two small rounded legend pills sit in the top corner of the card.",
+        "LIME_ACCENT_TARGET": "Only the flat AI-video line and a tiny rounded anomaly-flag pill attached to its end.",
+        "AI_SYMBOL_PLACEMENT": "A small stepped-cross resting right at the end of the flat lime line, marking the algorithmic finding."
+      }
+    },
+    {
+      "id": 3,
+      "title": "Evidence Panel Verdict",
+      "usage": "Section 'Why Your Eyes Are Not Enough', item 3 (WaterfallFeatures); mirrors the product's six-dimension result panel",
+      "output_path": "public/imgs/ai-video-detector/evidence-panel.png",
+      "environment_variables": {
+        "CANVAS_RATIO": "3:2",
+        "SCENE_CONTENT": "A friendly detection-result interface showing one clear verdict supported by six rows of evidence, conveying transparency instead of a black-box score.",
+        "UI_COMPONENTS": "A wide pristine white card. At the top, a rounded verdict pill reading exactly 'Likely AI', with a small caption 'Analyzed 6 key moments' beside it. Below, six evenly spaced rows, each with a small minimalist icon, a label, and a rounded status chip on the far right. The six rows read exactly: 'Visual Artifact Analysis' with chip 'FLAGGED', 'Temporal Coherence' with chip 'SUSPICIOUS', 'AI Watermark Scan' with chip 'CLEAN', 'Content Provenance' with chip 'CLEAN', 'Facial Authenticity' with chip 'UNAVAILABLE', 'File Forensics' with chip 'SUSPICIOUS'. Render every quoted label verbatim. Do not invent any other metric names or verdict words. Never use text-analysis terms such as perplexity, burstiness, linguistic naturalness, or writing style. No percentage scores.",
+        "LIME_ACCENT_TARGET": "Only the 'Likely AI' verdict pill at the top of the card.",
+        "AI_SYMBOL_PLACEMENT": "A borderless lime stepped-cross floating gently beside the verdict pill, just outside the card edge."
+      }
+    },
+    {
+      "id": 4,
+      "title": "CTA Background (optional)",
+      "usage": "Optional CTA section backgroundImage (not wired by default; if generated, place at output_path and add backgroundImage to the cta content)",
+      "output_path": "public/imgs/ai-video-detector/cta-bg.png",
+      "environment_variables": {
+        "CANVAS_RATIO": "3:2",
+        "SCENE_CONTENT": "A purely abstract, breathable, deeply dimensional background with zero harsh lines and zero readable text, calm enough to sit behind overlay text at low opacity. This is NOT an application screenshot: no dashboard, no chat interface, no charts, no stats, no people.",
+        "UI_COMPONENTS": "Three to four extremely soft, heavily blurred, out-of-focus pristine white cards floating at different depths over a warm cream void. The cards are empty blank surfaces with no text, no icons, and no UI controls on them.",
+        "LIME_ACCENT_TARGET": "No primary lime elements, keep it clean for text overlay.",
+        "AI_SYMBOL_PLACEMENT": "Several borderless electric lime stepped-crosses at varying opacities and blurs, drifting through the scene like digital fireflies."
+      }
+    },
+    {
+      "id": 5,
+      "title": "Use Case: Fact-Checkers & Journalists",
+      "usage": "Section 'Who Uses an AI Video Checker?', tab 'Fact-Checkers & Journalists' (UseCases tab image)",
+      "output_path": "public/imgs/ai-video-detector/usecase-factcheck.png",
+      "environment_variables": {
+        "CANVAS_RATIO": "3:2",
+        "SCENE_CONTENT": "A photorealistic journalist in her 30s at a warm-lit newsroom desk, focused on her laptop an hour before deadline, framed inside a large rounded white card.",
+        "UI_COMPONENTS": "The photographic card is overlapped on the right by a floating pristine white evidence-panel card topped by a rounded verdict pill reading exactly 'AI-Generated'. Below the pill, six compact signal rows read exactly: 'Visual Artifact Analysis' with chip 'FLAGGED', 'Temporal Coherence' with chip 'SUSPICIOUS', 'AI Watermark Scan' with chip 'FLAGGED', 'Content Provenance' with chip 'CLEAN', 'Facial Authenticity' with chip 'CLEAN', 'File Forensics' with chip 'SUSPICIOUS', each row with a tiny icon. A thin dotted grey workflow line connects her laptop to the panel. Render every quoted label verbatim. Do not invent any other metric names or verdict words. Never use text-analysis terms such as perplexity, burstiness, linguistic naturalness, or writing style. No percentage scores.",
+        "LIME_ACCENT_TARGET": "Only the rounded 'AI-Generated' verdict pill at the top of the evidence-panel card.",
+        "AI_SYMBOL_PLACEMENT": "A small borderless lime stepped-cross floating on the dotted line between the laptop and the evidence panel."
+      }
+    },
+    {
+      "id": 6,
+      "title": "Use Case: Creators & Publishers",
+      "usage": "Section 'Who Uses an AI Video Checker?', tab 'Creators & Publishers' (UseCases tab image)",
+      "output_path": "public/imgs/ai-video-detector/usecase-creators.png",
+      "environment_variables": {
+        "CANVAS_RATIO": "3:2",
+        "SCENE_CONTENT": "A photorealistic young video creator at a tidy editing desk with soft morning light, reviewing a row of incoming clip submissions before publishing, framed inside a rounded white card.",
+        "UI_COMPONENTS": "Beside the photographic card, a floating pristine white review card titled 'Submission Check' holds three rounded video thumbnail placeholders in a vertical stack. Their status chips read exactly 'Real', 'Likely AI', 'Real', and the 'Likely AI' thumbnail carries a small tag reading exactly 'AI label required'. Render every quoted label verbatim. Do not invent any other status words. Never use text-analysis terms such as perplexity, burstiness, or linguistic naturalness. No percentage scores.",
+        "LIME_ACCENT_TARGET": "Only the small 'AI label required' tag on the middle thumbnail.",
+        "AI_SYMBOL_PLACEMENT": "A borderless lime stepped-cross hovering gently in the negative space above the review card."
+      }
+    },
+    {
+      "id": 7,
+      "title": "Use Case: Brand & Trust Teams",
+      "usage": "Section 'Who Uses an AI Video Checker?', tab 'Brand & Trust Teams' (UseCases tab image)",
+      "output_path": "public/imgs/ai-video-detector/usecase-brand.png",
+      "environment_variables": {
+        "CANVAS_RATIO": "3:2",
+        "SCENE_CONTENT": "A clean campaign-approval workflow concept: influencer video deliverables moving through a screening checkpoint, rendered softly with no people.",
+        "UI_COMPONENTS": "Three rounded white deliverable cards in a row, each containing a video thumbnail placeholder and a small file-name label; a thin dotted grey line routes them through a larger pristine white checkpoint card titled 'AI Video Detection'. The checkpoint card holds six compact signal rows reading exactly 'Visual Artifact Analysis', 'Temporal Coherence', 'AI Watermark Scan', 'Content Provenance', 'Facial Authenticity', 'File Forensics', every row with a status chip reading exactly 'CLEAN', and a stamp-like pill at the bottom reading exactly 'Approved'. Render every quoted label verbatim. Do not invent any other metric names. Never use quality-control terms such as brand alignment, audio quality, framing, or length check. Never use text-analysis terms such as perplexity or burstiness. No percentage scores.",
+        "LIME_ACCENT_TARGET": "Only the rounded 'Approved' pill on the checkpoint card.",
+        "AI_SYMBOL_PLACEMENT": "A small stepped-cross resting on the dotted routing line just before the checkpoint card."
+      }
+    },
+    {
+      "id": 8,
+      "title": "Use Case: Everyday Viewers",
+      "usage": "Section 'Who Uses an AI Video Checker?', tab 'Everyday Viewers' (UseCases tab image)",
+      "output_path": "public/imgs/ai-video-detector/usecase-everyday.png",
+      "environment_variables": {
+        "CANVAS_RATIO": "3:2",
+        "SCENE_CONTENT": "A casual everyday scene: a hand holding a smartphone showing a paused, slightly too-perfect viral video, photorealistic with warm soft light, framed inside a rounded white card.",
+        "UI_COMPONENTS": "A rounded smartphone mockup inside the photographic card, overlapped by a small floating pristine white verdict card. The card holds one large rounded verdict pill reading exactly 'Likely Real', and beneath it a tier row of four small dots labelled exactly 'Real', 'Likely Real', 'Likely AI', 'AI-Generated', with the 'Likely Real' dot active. Render every quoted label verbatim. Do not add tiers such as Uncertain. Never use text-analysis terms such as perplexity or burstiness. No percentage scores.",
+        "LIME_ACCENT_TARGET": "Only the 'Likely Real' verdict pill on the floating verdict card.",
+        "AI_SYMBOL_PLACEMENT": "A borderless lime stepped-cross floating beside the smartphone notch, hinting the AI check in progress."
+      }
+    }
+  ]
+}

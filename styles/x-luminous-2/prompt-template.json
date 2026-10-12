@@ -1,0 +1,113 @@
+{
+  "style_name": "luminous soft-shadow floating SaaS-UI",
+  "style_summary": "A bright, airy, and friendly SaaS UI aesthetic designed to act as illuminated windows against a dark website background. The visual vocabulary relies on pristine white floating UI cards with generous border radii, set against a warm cream canvas. The graphic language features soft diffused drop shadows, charcoal grey typography, and electric lime green accents, completely avoiding harsh borders or strokes. The mood conveys effortless AI magic, modern premium product-design, and approachable technology.",
+
+  "environment_variables": {
+    "CANVAS_RATIO": "canvas proportion constraint, e.g., '16:9 widescreen' or '1:1 square'.",
+    "SCENE_CONTENT": "The core visual narrative or photographic subject, e.g., 'a highly detailed coffee mug'. This subject is usually nested inside or placed alongside the floating white UI cards.",
+    "UI_COMPONENTS": "Specific UI panels to be rendered in the scene, e.g., 'a chat interface with a user bubble and an AI response bubble' or 'a 4-frame storyboard wireframe'. All must have generous rounded corners.",
+    "LIME_ACCENT_TARGET": "Surgical placement of the Electric Lime color, e.g., 'only on the Generate button and the 4K badge'. Must be specific to teach the model restraint.",
+    "AI_SYMBOL_PLACEMENT": "Where the solid, borderless geometric stepped-cross should appear to indicate AI generation, e.g., 'floating gently next to the AI chat bubble'."
+  },
+
+  "composition": {
+    "layout_type": "Floating layered soft-UI composition",
+    "zones": {
+      "typography_zone": "Nested strictly inside the pristine white UI cards, distinct from the cream background canvas.",
+      "focal_zone": "Centered or asymmetrically balanced floating cards. Overlapping of chat bubbles and image panels is highly encouraged to create 2.5D depth.",
+      "negative_space": "Generous warm cream background acting as a glowing void, providing 30-40% padding around the main floating UI groups to let the drop shadows breathe."
+    },
+    "depth_logic": "Depth relies strictly on large-blur, low-opacity drop shadows beneath the white UI cards. Prohibited: true 3D perspective, extrusion, bevels, or inner shadows.",
+    "scale_contrast": "Standard modern SaaS text-to-card ratio. Tiny functional tags (like '4K') contrast with larger UI layout structures.",
+    "edge_treatment": "Generous, smooth border-radii on ALL UI elements. Absolutely no sharp right angles and absolutely no stroked borders.",
+    "permissions": [
+      "Explicitly allowed to overlap chat bubbles over primary image containers",
+      "Explicitly allowed to crop floating cards gracefully at the canvas edges",
+      "Explicitly allowed to blend photorealistic inner subjects with flat vector UI containers"
+    ]
+  },
+
+  "typography": {
+    "presence": "UI dashboard and chat interface",
+    "letterform_character": "Friendly, modern, clean, highly legible geometric rounded sans-serif.",
+    "hierarchy": [
+      {
+        "role": "headline_or_chat",
+        "style": "Medium weight sans-serif, standard UI size",
+        "treatment": "Smooth anti-aliased rendering",
+        "position": "Inside chat bubbles or UI card headers",
+        "color_rule": "Charcoal grey"
+      },
+      {
+        "role": "button_label",
+        "style": "Regular weight sans-serif, small",
+        "treatment": "Centered inside pill shapes",
+        "position": "Inside action buttons",
+        "color_rule": "Charcoal grey or Pristine white (depending on button color)"
+      }
+    ],
+    "readability_rule": "Must mimic an authentic coded web interface with comfortable line height and padding.",
+    "text_constraints": [
+      "No hallucinated cursive or serif text",
+      "No handwriting fonts",
+      "No distressed or textured text"
+    ]
+  },
+
+  "color_palette": {
+    "warm_cream": "#FBF8F1 — warm morning sunlight falling on a smooth plaster wall",
+    "pristine_white": "#FFFFFF — a blank digital canvas or pure white snow",
+    "charcoal_grey": "#333333 — dark graphite pencil lead",
+    "electric_lime": "#D4FF00 — glowing neon safety highlighter"
+  },
+
+  "color_constraints": {
+    "dominant": "Warm Cream for the base canvas, Pristine White for the floating UI cards. Together they must occupy 85%+ of the area.",
+    "accent_roles": "Electric Lime is strictly for success states, main CTA buttons, and the AI geometric symbol. Charcoal Grey is for all typography and UI lines.",
+    "special_rules": "Photorealistic subjects inside the UI cards (e.g., product shots or avatars) should have natural lighting that matches the warm airy vibe.",
+    "forbidden": [
+      "No pure black #000000 (creates too harsh a contrast, ruins the soft UI feel)",
+      "No dark mode UI cards (this style must contrast with the user's actual dark website)",
+      "No color gradients within the UI card backgrounds (must be solid pristine white)",
+      "No heavy black outlines or borders on any element"
+    ]
+  },
+
+  "visual_direction": {
+    "lighting": "Soft, diffused global illumination. Casts gentle, broad, and very soft drop shadows directly downward/outward from the UI cards.",
+    "mood": "Friendly, magical, effortless, organized, and premium. Is NOT brutalist, is NOT dark-mode, is NOT aggressive or chaotic.",
+    "material_textures": "Matte soft plastic, pristine glass without glossy reflections, smooth premium paper.",
+    "print_finish": "Born-digital modern web application.",
+    "surface_quality": "Matte with a very subtle ethereal brightness."
+  },
+
+  "graphic_elements": {
+    "ai_stepped_cross": {
+      "physical": "A solid Electric Lime shape resembling a stepped geometric cross or 8-bit star. Completely borderless. May have a very subtle, soft lime glow.",
+      "placement": "Floating gently next to AI chat bubbles or nested inside key UI interactions.",
+      "allowed": ["Can be scaled down to icon size", "Can hover gently in the negative space outside UI cards"],
+      "forbidden": ["Must never have any black or dark outline", "Must not be a traditional sharp 4-point star (must have stepped/geometric edges)"],
+      "count": "1-3"
+    },
+    "workflow_lines": {
+      "physical": "Extremely thin, soft Charcoal Grey dashed or dotted lines.",
+      "placement": "Connecting UI cards, chat bubbles, or indicating process flow.",
+      "allowed": ["Curved smooth routing with gentle arcs"],
+      "forbidden": ["No thick strokes", "No solid black lines", "No sharp zigzag angles"],
+      "count": "0-2"
+    }
+  },
+
+  "constraints": {
+    "do": [
+      "Maintain ultra-clean white cards with generous rounded corners.",
+      "Ensure high legibility by using Charcoal Grey text against Pristine White cards.",
+      "Use soft, large-radius drop shadows to create separation between the white cards and the cream background."
+    ],
+    "avoid": [
+      "Avoid thick dark outlines on any UI element (Model bias: associates UI vectors with flat-art stroke styles).",
+      "Avoid pure black backgrounds or dark mode aesthetics (Model bias: associates 'SaaS UI' with dark mode developer tools).",
+      "Avoid flat vector design without drop shadows (Model bias: forgets to render 2.5D depth, resulting in paper-flat images)."
+    ]
+  }
+}
